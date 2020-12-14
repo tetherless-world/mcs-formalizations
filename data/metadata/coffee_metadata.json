@@ -1,0 +1,11 @@
+{
+    "@context": "http://schema.org/",
+    "@id": "Coffee",
+    "@type": "Object",
+    "name": "Automobile",
+    "long": 42.73340599091885,
+    "lat": -73.69006180741319,
+    "state": "liquid",
+    "fillable": true,
+    "mixable": false
+}

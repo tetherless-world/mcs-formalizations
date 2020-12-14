@@ -1,0 +1,11 @@
+{
+    "@context": "http://schema.org/",
+    "@id": "ParkingGarage",
+    "@type": "Object",
+    "name": "ParkingGarage",
+    "long": 42.73340599091885,
+    "lat": -73.69006180741319,
+    "state_of_matter": "solid",
+    "fillable": true,
+    "mixable": false
+}
