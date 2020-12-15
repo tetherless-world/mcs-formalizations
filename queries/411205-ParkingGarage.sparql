@@ -1,0 +1,12 @@
+#Question: True/False - A parking garage is larger than an automobile.
+
+CONSTRUCT {?s MCS::isLargerThan ?y} 
+WHERE {?s MCS::contains ?y}
+
+ASK WHERE {MCS::parkingGarage MCS::isLargerThan MCS::automobile}
+
+
+#Minimum knowledge:
+#   parkingGarage contains vehicles
+#   automobile is-a vehicle
+#   container is larger than the thing it contains

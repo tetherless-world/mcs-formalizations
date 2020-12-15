@@ -1,0 +1,11 @@
+#Question: True/False - You are more likely to find a book in a library than in a tree.
+
+CONSTRUCT {?s MCS::isFoundIn ?y} 
+WHERE {?s MCS::contains ?y}
+
+
+ASK WHERE {MCS::library MCS::contains MCS::books}
+
+
+#Minimum knowledge:
+#   library contains books

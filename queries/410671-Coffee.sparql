@@ -1,0 +1,11 @@
+#Question: True/False - If a cup contains hot coffee, then the cup is presumably right side up.
+
+CONSTRUCT {?s MCS::hasOrientation MCS::rightSideUp} 
+WHERE {?s MCS::contains ?y}
+
+ASK WHERE {MCS::cup MCS::hasOrientation MCS::rightSideUp}
+
+
+#Minimum knowledge:
+#   a cup must be right side up if it contains something
+#   "is" can be interpreted as "has orientation"

@@ -1,0 +1,12 @@
+#Question: True/False - In most buildings, the second floor is below the first floor.
+
+CONSTRUCT {MCS::secondFloor MCS::isLocatedAbove MCS::firstFloor .
+    MCS::firstFloor MCS::isLocatedBelow MCS::secondFloor .} 
+WHERE {?s MCS::hasA MCS::firstFloor .
+    ?y MCS::hasA MCS::secondFloor .}
+
+ASK WHERE {MCS::firstFloor MCS::isLocatedBelow MCS::secondFloor}
+
+
+#Minimum knowledge:
+#   ???

@@ -1,0 +1,14 @@
+#Question: True/False - Grandfather clocks are bigger than pocket watches.
+
+CONSTRUCT {?s MCS::isLargerThan ?y} 
+WHERE {MCS::pocket MCS::contains ?y .
+    ?s MCS::hasProperty MCS::tall .}
+
+ASK WHERE {MCS::grandfatherClock MCS::isLargerThan MCS::pocketWatch}
+
+
+#Minimum knowledge:
+#   pocket contains a pocket watch
+#   grandfather clock is tall (alternative approach: sits on floor?)
+#   if an object is tall, it likely cannot fit in a pocket
+#   "bigger" and "larger" are synonyms
