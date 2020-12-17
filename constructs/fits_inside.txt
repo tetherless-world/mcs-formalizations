@@ -1,2 +1,0 @@
-CONSTRUCT {?s mcs:fitsInside ?y} 
-WHERE {?y mcs:isSmallerThan ?s}

@@ -1,0 +1,4 @@
+CONSTRUCT {mcs:secondFloor mcs:isLocatedAbove mcs:firstFloor .
+    mcs:firstFloor mcs:isLocatedBelow mcs:secondFloor .} 
+WHERE {?s mcs:hasA mcs:firstFloor .
+    ?y mcs:hasA mcs:secondFloor .}

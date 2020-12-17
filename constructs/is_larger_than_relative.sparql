@@ -1,0 +1,3 @@
+CONSTRUCT {?s mcs:isLargerThan ?y} 
+WHERE {mcs:pocket mcs:contains ?y .
+    ?s mcs:hasProperty mcs:tall .}

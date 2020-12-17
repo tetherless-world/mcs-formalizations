@@ -1,2 +1,0 @@
-CONSTRUCT {?y mcs:isSmallerThan ?s} 
-WHERE {?s mcs:contains ?y}
