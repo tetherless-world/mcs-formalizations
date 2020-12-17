@@ -1,9 +1,9 @@
 #Question: True/False - You are likely to find a bathtub in a kitchen.
 
-CONSTRUCT {?s MCS::isFoundIn ?y} 
-WHERE {?s MCS::contains ?y}
+CONSTRUCT {?s mcs:isFoundIn ?y} 
+WHERE {?s mcs:contains ?y}
 
-ASK WHERE {MCS::bathtub MCS::isFoundIn MCS::kitchen}
+ASK WHERE {mcs:bathtub mcs:isFoundIn mcs:kitchen}
 
 
 #Minimum knowledge:

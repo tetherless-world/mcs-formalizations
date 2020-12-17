@@ -1,0 +1,3 @@
+CONSTRUCT {?y mcs:isLocatedAbove ?s} 
+WHERE {?s mcs:locatedAt mcs:firstFloor .
+    ?y mcs:locatedAt mcs:secondFloor .}

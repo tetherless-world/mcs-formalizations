@@ -1,13 +1,13 @@
 #Question: True/False - Objects usually cannot fit inside anything that is smaller than they are.
 
-CONSTRUCT {?y MCS::isSmallerThan ?s} 
-WHERE {?s MCS::contains ?y}
+CONSTRUCT {?y mcs:isSmallerThan ?s} 
+WHERE {?s mcs:contains ?y}
 
-CONSTRUCT {?s MCS::fitsInside ?y} 
-WHERE {?y MCS::isSmallerThan ?s}
+CONSTRUCT {?s mcs:fitsInside ?y} 
+WHERE {?y mcs:isSmallerThan ?s}
 
-ASK WHERE {?s MCS::fitsInside ?y .
-    ?y MCS::isSmallerThan ?s .}
+ASK WHERE {?s mcs:fitsInside ?y .
+    ?y mcs:isSmallerThan ?s .}
 
 
 #Minimum knowledge:
