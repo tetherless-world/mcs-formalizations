@@ -22,7 +22,7 @@ class SparqlReasoner(_Reasoner):
     def apply_rules(self, *rule_names: Tuple[str, ...]) -> None:
         # TODO: use a temporary Graph to store the inferred triples, so later rules don't match them?
         for rule_name in rule_names:
-            with open(ROOT_DIR_PATH / "rules" / (rule_name + ".sparql"), "r") as sparql_file:
+            with open(str(ROOT_DIR_PATH / "rules" / (rule_name + ".sparql")), "r") as sparql_file:
                 sparql = sparql_file.read()
                 for result in self.__graph.query(sparql):
                     self.__graph.add(result)
