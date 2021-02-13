@@ -1,0 +1,14 @@
+#Question: True/False - Objects usually cannot fit inside anything that is smaller than they are.
+
+CONSTRUCT {?y mcs:isSmallerThan ?s} 
+WHERE {?s mcs:contains ?y}
+
+CONSTRUCT {?s mcs:fitsInside ?y} 
+WHERE {?y mcs:isSmallerThan ?s}
+
+ASK WHERE {?s mcs:fitsInside ?y .
+    ?y mcs:isSmallerThan ?s .}
+
+
+#Minimum knowledge:
+#   an object must be smaller than another to fit inside of it

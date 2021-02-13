@@ -1,9 +1,9 @@
 #Question: True/False - You are likely to find a frying pan in a bathroom.
 
-CONSTRUCT {?s MCS::isFoundIn ?y} 
-WHERE {?s MCS::contains ?y}
+CONSTRUCT {?s mcs:isFoundIn ?y} 
+WHERE {?s mcs:contains ?y}
 
-ASK WHERE {MCS::fryingPan MCS::isFoundIn MCS::bathroom}
+ASK WHERE {mcs:fryingPan mcs:isFoundIn mcs:bathroom}
 
 
 #Minimum knowledge:

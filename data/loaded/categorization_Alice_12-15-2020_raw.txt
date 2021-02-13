@@ -1,0 +1,102 @@
+__label__Events The dead can walk.
+__label__Time __label__World-states __label__Events __label__Physical-Entities __label__Classes-and-instances You usually can't watch TV during a power outage.
+__label__Events If Joy has a bachelor's degree, then she probably went to college.
+__label__Classes-and-instances __label__Sets Pilots are more likely than farmers to fly airplanes.
+__label__Physical-Entities __label__Classes-and-instances __label__Sets A cutting board can be used as a tray.
+__label__Events __label__Physical-Entities __label__Classes-and-instances A customer would like being served a glass of water with a cockroach in it.
+__label__World-states __label__Events __label__Physical-Entities Flashlights work without being plugged in.
+__label__Space __label__Physical-Entities __label__Classes-and-instances A parking garage is larger than an automobile.
+__label__Classes-and-instances __label__Sets Every spoon is a utensil.
+__label__Physical-Entities __label__Sets Buildings designed to provide shelter for humans are almost never edible.
+__label__Events __label__Space __label__Physical-Entities __label__Classes-and-instances Carpenters find hammers useful for driving objects into other objects.
+__label__Events The country Argentina can cry.
+__label__Events You could play ice hockey outside in the summer.
+__label__Events __label__Physical-Entities __label__Classes-and-instances You put shoes on before socks.
+__label__Physical-Entities __label__Classes-and-instances __label__Sets A cap with no brim provides lots of shade from the bright sun.
+__label__Physical-Entities __label__Classes-and-instances __label__Sets The front doors of busy businesses open and close frequently.
+__label__Physical-Entities __label__Classes-and-instances __label__Sets The sound of a balloon popping can be loud.
+__label__Classes-and-instances __label__Sets You can serve orange juice in a coffee mug.
+__label__Classes-and-instances __label__Sets Coffee mixed with cream is black.
+__label__Events Cuddling is typically an expression of hatred.
+__label__Values-and-quantities __label__Classes-and-instances __label__Sets A puppy is older than an adult dog.
+__label__Classes-and-instances __label__Sets People with buzz cuts have very long hair.
+__label__Time __label__Events __label__Classes-and-instances __label__Sets If a chicken lays an egg, then the chicken existed before the egg.
+__label__Classes-and-instances __label__Sets Generally, winter coats are warm clothing.
+__label__Classes-and-instances __label__Sets A fish can ride a bicycle.
+__label__Classes-and-instances __label__Sets Snakes can juggle.
+__label__Events __label__Physical-Entities If you throw a wine glass against a wooden floor, it will probably shatter.
+__label__Classes-and-instances __label__Sets Absolutely everyone likes blueberries.
+__label__Space If a cup contains hot coffee, then the cup is presumably right side up.
+__label__Classes-and-instances __label__Sets Stoves are meant to be used in cooking food.
+__label__Classes-and-instances __label__Sets A wax candle would work even if it had no wick.
+__label__Classes-and-instances If something is a free gift, you don't have to pay for it.
+__label__Classes-and-instances __label__Sets You can use a cotton ball as a paperweight.
+__label__Events __label__Classes-and-instances __label__Sets Women typically put on makeup without a mirror.
+__label__Events __label__Physical-Entities __label__Classes-and-instances __label__Sets You can see someone's smile even when they are wearing a surgical mask.
+__label__Physical-Entities __label__Classes-and-instances __label__Sets Every cotton ball is a lightweight, relatively small object.
+__label__Values-and-quantities A few weeks is greater than a few minutes.
+__label__Physical-Entities __label__Values-and-quantities __label__Classes-and-instances Grandfather clocks are bigger than pocket watches.
+__label__Time __label__Events When dining at a fast-food restaurant, you are usually seated before ordering food.
+__label__Events __label__Physical-Entities If you spill grape soda on white clothes, it usually won't stain them.
+__label__Events __label__Physical-Entities __label__Classes-and-instances When Duke changed the tire on his car, he lifted the car with the jack after removing the old tire.
+__label__World-states Being sick is usually unpleasant for people.
+__label__Space __label__Physical-Entities __label__Classes-and-instances __label__Sets If Joy is on the first floor, and Rob is on the second floor, then Joy is above Rob.
+__label__Physical-Entities __label__Classes-and-instances __label__Sets Bedroom dressers are typically used to store clothes.
+__label__World-states __label__Events __label__Physical-Entities A human would not mind touching a burner while the stove is on.
+__label__Events __label__Physical-Entities __label__Classes-and-instances __label__Sets Styrofoam peanuts are often used to protect fragile objects during transport.
+__label__Events When you encounter a bird, you expect to be able to see its heart.
+__label__Classes-and-instances __label__Sets Newspapers contain news.
+__label__Physical-Entities __label__Classes-and-instances __label__Sets Most kitchens are not bathrooms.
+__label__Physical-Entities __label__Classes-and-instances People often eat ceramic plates.
+__label__Space __label__Physical-Entities __label__Classes-and-instances __label__Sets You are likely to find a bathtub in a kitchen.
+__label__Physical-Entities __label__Classes-and-instances __label__Sets Wood is often used in building structures.
+__label__Time Barack Obama was president of the United States in the year 1220.
+__label__Space __label__Physical-Entities __label__Classes-and-instances __label__Sets London, England is located inside a suitcase.
+__label__Space __label__Physical-Entities __label__Classes-and-instances __label__Sets In most buildings, the second floor is below the first floor.
+__label__Classes-and-instances __label__Sets Cat food is probably on the menu at most restaurants.
+__label__Events __label__Classes-and-instances __label__Sets Most things without eyes don't cry.
+__label__Physical-Entities __label__Classes-and-instances __label__Sets The Atlantic Ocean is a body of water.
+__label__Events Most doctors haven't gone to college.
+__label__Time __label__Events You have to decide to take a breath before you can do it.
+__label__Events __label__Physical-Entities Mixing cream in coffee doesn't change its color.
+__label__Events __label__Classes-and-instances __label__Sets If you are drinking beer, you are drinking something carbonated.
+__label__Classes-and-instances __label__Sets Internal parts of opaque objects are not visible from the outside.
+__label__Time __label__World-states Phoenix, AZ currently has both a dry climate and a rainy climate.
+__label__Events Most people are excited to learn they caught the flu on vacation.
+__label__Physical-Entities __label__Classes-and-instances __label__Sets Every popsicle is frozen food.
+__label__Time __label__Events If A creates B, then A must exist before B.
+__label__Events At fast food restaurants you typically order at a counter or a drive-through.
+__label__Classes-and-instances __label__Sets No spicy thing is bland.
+__label__Classes-and-instances __label__Sets Being complimented is pleasant.
+__label__Classes-and-instances __label__Sets People who characteristically do something are more likely to do that sort of thing than other people.
+__label__Events You light a candle by lighting the wax.
+__label__Values-and-quantities 180 seconds is greater than 3 weeks.
+__label__Classes-and-instances __label__Sets You expect to find a toilet in a kitchen.
+__label__Sets Walking on two legs is a type of swimming.
+__label__Sets Drinking vessels can contain liquid.
+__label__Sets If part of a written work contains some information, then the work itself contains that information.
+__label__Space __label__Sets You can ship a book in a box that is smaller than the book is.
+__label__Classes-and-instances __label__Sets Actions that are hostile do not express a feeling of good will.
+__label__Physical-Entities __label__Classes-and-instances __label__Sets London, England is a city.
+__label__Physical-Entities __label__Classes-and-instances __label__Sets Most TVs work without being plugged in.
+__label__Classes-and-instances __label__Sets Objects are not usually found in places where they or their parts would melt.
+__label__Events You can't read a book using a flashlight during a power outage.
+__label__Events __label__Classes-and-instances __label__Sets To graduate from a kind of school, you must attend that kind of school.
+__label__Physical-Entities Very few airplane pilots know what the controls in the cockpit do.
+__label__Sets A professional singer who lost their vocal cords could still do their job.
+__label__Physical-Entities __label__Sets Things that are toxic to humans are typically not ingredients in human food.
+__label__Classes-and-instances __label__Sets Stoves cannot be used to generate heat.
+__label__Classes-and-instances __label__Sets If a body part is necessary for some activity, things that lack that part can't do that activity.
+__label__Classes-and-instances __label__Sets Most cotton balls are dense, heavy objects.
+__label__Sets Milk is a type of dairy product.
+__label__Classes-and-instances __label__Sets There are no devices that are designed to keep things cool.
+__label__Space __label__Values-and-quantities __label__Sets If A can be stored inside B, then A is smaller than B.
+__label__Sets A dream is not a physical object.
+__label__Events __label__Classes-and-instances __label__Sets Fish can breathe with gills.
+__label__Space __label__Physical-Entities __label__Sets It is common to find books in libraries.
+__label__Events __label__Physical-Entities If you throw a very fragile object against something as tough as wood, it will probably be damaged.
+__label__Space __label__Physical-Entities Devices for bathing are typically not found outside rooms designed for bathing.
+__label__Events Most people like to injure themselves.
+__label__Physical-Entities An open container can only hold a liquid if it is right side up.
+__label__Sets Rooms in buildings typically aren't underwater.
+__label__Sets Clothing items usually aren't edible by humans.

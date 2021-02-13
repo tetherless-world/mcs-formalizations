@@ -1,5 +1,4 @@
-from rdflib import Namespace
-from rdflib.namespace import NamespaceManager
+from rdflib import Namespace, Graph
 
 MCS = Namespace("http://purl.org/twc/mcs/")
 OWL = Namespace("http://www.w3.org/2002/07/owl#")
@@ -11,12 +10,12 @@ XSD = Namespace("http://www.w3.org/2001/XMLSchema#")
 GEO = Namespace("http://www.w3.org/2003/01/geo#")
 
 
-def bind_namespaces(namespace_manager: NamespaceManager):
-    namespace_manager.bind("mcs", MCS)
-    namespace_manager.bind("owl", OWL)
-    namespace_manager.bind("rdf", RDF)
-    namespace_manager.bind("rdfs", RDFS)
-    namespace_manager.bind("schema", SCHEMA)
-    namespace_manager.bind("vann", VANN)
-    namespace_manager.bind("xsd", XSD)
-    namespace_manager.bind("geo", GEO)
+def bind_namespaces(g: Graph):
+    g.bind("mcs", MCS)
+    g.bind("owl", OWL)
+    g.bind("rdf", RDF)
+    g.bind("rdfs", RDFS)
+    g.bind("schema", SCHEMA)
+    g.bind("vann", VANN)
+    g.bind("xsd", XSD)
+    g.bind("geo", GEO)

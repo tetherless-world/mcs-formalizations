@@ -1,0 +1,14 @@
+#Question: True/False - You can ship a book in a box that is smaller than the book is.
+
+CONSTRUCT {?y mcs:isSmallerThan ?s} 
+WHERE {?s mcs:contains ?y}
+
+CONSTRUCT {?s mcs:fitsInside ?y} 
+WHERE {?y mcs:isSmallerThan ?s}
+
+ASK WHERE {mcs:book mcs:fitsInside mcs:box .
+    mcs:box mcs:isSmallerThan mcs:book .}
+
+
+#Minimum knowledge:
+#   an object must be smaller than another to fit inside of it

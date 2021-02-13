@@ -1,10 +1,10 @@
 #Question: True/False - If Joy is on the first floor, and Rob is on the second floor, then Joy is above Rob.
 
-CONSTRUCT {?y MCS::isLocatedAbove ?s} 
-WHERE {?s MCS::locatedAt MCS::firstFloor .
-    ?y MCS::locatedAt MCS::secondFloor .}
+CONSTRUCT {?y mcs:isLocatedAbove ?s} 
+WHERE {?s mcs:locatedAt mcs:firstFloor .
+    ?y mcs:locatedAt mcs:secondFloor .}
 
-ASK WHERE {MCS::joy MCS::isLocatedAbove MCS::rob}
+ASK WHERE {mcs:joy mcs:isLocatedAbove mcs:rob}
 
 
 #Minimum knowledge:

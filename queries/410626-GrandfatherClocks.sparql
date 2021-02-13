@@ -1,10 +1,10 @@
 #Question: True/False - Grandfather clocks are bigger than pocket watches.
 
-CONSTRUCT {?s MCS::isLargerThan ?y} 
-WHERE {MCS::pocket MCS::contains ?y .
-    ?s MCS::hasProperty MCS::tall .}
+CONSTRUCT {?s mcs:isLargerThan ?y} 
+WHERE {mcs:pocket mcs:contains ?y .
+    ?s mcs:hasProperty mcs:tall .}
 
-ASK WHERE {MCS::grandfatherClock MCS::isLargerThan MCS::pocketWatch}
+ASK WHERE {mcs:grandfatherClock mcs:isLargerThan mcs:pocketWatch}
 
 
 #Minimum knowledge:

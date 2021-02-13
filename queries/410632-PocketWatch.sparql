@@ -1,0 +1,15 @@
+#Question: True/False - A pocket watch is roughly the size of a golf ball.
+
+CONSTRUCT {?s mcs:isSimilarSizeTo ?y} 
+WHERE {mcs:pocket mcs:contains ?y .
+    mcs:pocket mcs:contains ?y .
+    ?s != ?y .}
+
+ASK WHERE {mcs:pocketWatch mcs:isSimilarSizeTo mcs:golfBall}
+
+
+#Minimum knowledge:
+#   pocket contains a pocket watch
+#   a golf ball can fit in a pocket
+#   two things that can fit in the same space are likely to be the same size (this is NOT TRUE though!)
+#   may be a good example to do size comparison via Gordon and Hobbes reasoning

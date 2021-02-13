@@ -1,0 +1,2 @@
+CONSTRUCT {?s mcs:isFoundIn ?y} 
+WHERE {?s mcs:contains ?y}
