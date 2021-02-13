@@ -2,8 +2,8 @@ from abc import abstractmethod
 from pathlib import Path
 from typing import Generator
 
-from mcs_formalizations._model import _Model
-from mcs_formalizations._pipeline_phase import _PipelinePhase
+from mcs_formalizations.etl._model import _Model
+from mcs_formalizations.etl._pipeline_phase import _PipelinePhase
 from mcs_formalizations.path import DATA_DIR_PATH
 
 

@@ -5,10 +5,10 @@ from pathlib import Path
 
 from configargparse import ArgParser
 
-from mcs_formalizations._extractor import _Extractor
-from mcs_formalizations._loader import _Loader
-from mcs_formalizations._transformer import _Transformer
-from mcs_formalizations.loaders.rdf_file_loader import RdfFileLoader
+from mcs_formalizations.etl._extractor import _Extractor
+from mcs_formalizations.etl._loader import _Loader
+from mcs_formalizations.etl._transformer import _Transformer
+from mcs_formalizations.etl.loaders.txt_file_loader import TxtFileLoader
 from mcs_formalizations.path import DATA_DIR_PATH
 
 
@@ -33,7 +33,7 @@ class _Pipeline(ABC):
         self.__extractor = extractor
         self.__id = id
         if loader is None:
-            loader = RdfFileLoader(pipeline_id=id, data_dir_path=data_dir_path, **kwds)
+            loader = TxtFileLoader(pipeline_id=id, data_dir_path=data_dir_path, **kwds)
         self.__loader = loader
         self.__transformer = transformer
 

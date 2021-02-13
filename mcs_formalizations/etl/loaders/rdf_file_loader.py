@@ -7,9 +7,9 @@ import bz2
 
 from tqdm import tqdm
 
-from mcs_formalizations._loader import _Loader
+from mcs_formalizations.etl._loader import _Loader
 from mcs_formalizations.namespace import bind_namespaces
-from mcs_formalizations._model import _Model
+from mcs_formalizations.etl._model import _Model
 
 
 class RdfFileLoader(_Loader):

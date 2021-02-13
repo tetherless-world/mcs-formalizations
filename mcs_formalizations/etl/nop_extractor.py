@@ -1,4 +1,4 @@
-from mcs_formalizations._extractor import _Extractor
+from mcs_formalizations.etl._extractor import _Extractor
 
 
 class NopExtractor(_Extractor):

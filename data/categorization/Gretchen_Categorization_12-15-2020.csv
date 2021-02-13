@@ -1,4 +1,4 @@
-,question,,run_id,Time,World states,Events,Space,Physical Entities,Values and quantities,Classes and instances,Sets,,Confidence Rating
+part,question,,run_id,Time,World states,Events,Space,Physical Entities,Values and quantities,Classes and instances,Sets,,Confidence Rating
 a,True or False: Horses live in the sea.,3b666060-50ae-13d6-8052-8f17144fbbc1,411281,,,,,4,,4,5,,3
 a,True or False: The dead can walk.,7d135b80-5518-13d6-8052-8f17144fbbc1,413952,,4,,,5,,4,4,,3
 a,True or False: You usually can't watch TV during a power outage.,a281abae-4a20-13d6-80fb-b947c0cf9f4c,410907,3,5,5,,5,,,,,5

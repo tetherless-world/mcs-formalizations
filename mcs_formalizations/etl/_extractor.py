@@ -5,7 +5,7 @@ from urllib.request import urlopen
 
 from pathvalidate import sanitize_filename
 
-from mcs_formalizations._pipeline_phase import _PipelinePhase
+from mcs_formalizations.etl._pipeline_phase import _PipelinePhase
 from mcs_formalizations.path import DATA_DIR_PATH
 
 
