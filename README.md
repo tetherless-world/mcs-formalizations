@@ -22,9 +22,10 @@ On Windows:
 
     venv\Scripts\activate
 
-### Install the dependencies
+### Install the dependencies and the project module
 
     pip install -r requirements.txt
+    pip install -e .
 
 ### Install the fastText module
 
@@ -33,6 +34,10 @@ On Windows:
     $ sudo pip install .
     $ # or :
     $ sudo python setup.py install
+
+## Everytime Setup
+
+### 
 
 ## Preparing a new categorization file
 
