@@ -1,5 +1,5 @@
 import fasttext as ft
-from pathlib import path
+from pathlib import Path
 from mcs_formalizations.path import DATA_DIR_PATH
 
 
