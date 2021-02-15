@@ -35,10 +35,6 @@ On Windows:
     $ # or :
     $ sudo python setup.py install
 
-## Everytime Setup
-
-### 
-
 ## Preparing a new categorization file
 
 ### 1. Performing the categorization.
