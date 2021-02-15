@@ -26,6 +26,14 @@ On Windows:
 
     pip install -r requirements.txt
 
+### Install the fastText module
+
+    $ git clone https://github.com/facebookresearch/fastText.git
+    $ cd fastText
+    $ sudo pip install .
+    $ # or :
+    $ sudo python setup.py install
+
 ## Preparing a new categorization file
 
 ### 1. Performing the categorization.
