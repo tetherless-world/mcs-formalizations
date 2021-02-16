@@ -59,6 +59,9 @@ Once the categorization is complete, download the google sheet as a .csv file an
 ### 1. Adjusting the test file
 
 In a new test file in /tests/mcs_formalizations_test/ets/pipelines/categorization/categorization_pipeline_test.py, adjust the parameters of the function accordingly:
+    loader = "csv" if you are training with Weka, "txt" if you are training with fasttext
+    threshold = the highest ranking that you consider to not be representative of worthy of a label (e.g. a threshold of 3 means that all scores 3 or lower will be disregarded)
+    data_dir_path = DATA_DIR_PATH (likely will not need to change)
     categorizer_name = NAME
     month_num = MM
     day_num = DD
@@ -67,16 +70,25 @@ In a new test file in /tests/mcs_formalizations_test/ets/pipelines/categorizatio
 
 ### 2. Producing the file
 
+
 From the directory, run 
 
     pytest 
 
-to produce the fasttext input files in /data/loaded
+to produce the input files in /data/loaded/FILE_TYPE
 
 
 ## Training the fasttext model
 
 In /fasttext/train.py, adjust the parameters according to the values set in "1. Adjusting the test file" of the last section.
+
+Consider adjusting the number of epochs that the model is trained through by adjusting the appropriate parameter. See the fastText documentation for more information.
+
+From /txt_classification run
+
+    python train.py
+
+
 
 
 

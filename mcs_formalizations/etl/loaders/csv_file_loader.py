@@ -3,15 +3,17 @@ from typing import Optional, Generator
 
 from pathvalidate import sanitize_filename
 import bz2
+import csv
 
 from tqdm import tqdm
 
 from mcs_formalizations.etl._loader import _Loader
+from mcs_formalizations.helpers import categories
 from mcs_formalizations.namespace import bind_namespaces
 from mcs_formalizations.etl.models.categorization_sample import CategorizationSample
 
 
-class TxtFileLoader(_Loader):
+class CsvFileLoader(_Loader):
     def __init__(
         self,
         *,
@@ -29,21 +31,31 @@ class TxtFileLoader(_Loader):
         if file_path is None:
             file_name_parts = [
                 sanitize_filename(self._pipeline_id),
-                "txt",
+                "csv",
             ]
             file_name = ".".join(file_name_parts)
-            file_path = self._loaded_data_dir_path / "txt" / file_name
+            file_path = self._loaded_data_dir_path / "csv" / file_name
 
         self._logger.info("writing categorizations to %s", file_path)
+
+        header_row = ["sentence"] + categories()
+
         with open(file_path, "w") as file_:
+
+            writer = csv.writer(file_)
+            writer.writerow(header_row)
             for sample in models:
                 sample_line = []
                 if len(sample.sample_labels) == 0:
                     continue
-                for label in sample.sample_labels:
-                    sample_line.append(f"__label__{label} ")
-                sample_line.append(f"{sample.sample_question}\n")
-                sample_text = "".join(sample_line)
-                file_.write(sample_text)
+                sample_line.append(sample.sample_question)
+                for category in categories():
+                    print(category)
+                    print(sample.sample_labels)
+                    if category in sample.sample_labels:
+                        sample_line.append("True")
+                    else:
+                        sample_line.append("False")
+                writer.writerow(sample_line)
 
         self._logger.info("wrote categorizations to %s", file_path)

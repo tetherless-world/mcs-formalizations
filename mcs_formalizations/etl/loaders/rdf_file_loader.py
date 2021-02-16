@@ -40,7 +40,7 @@ class RdfFileLoader(_Loader):
                 self.__format.replace("-", ""),
             ]
             file_name = ".".join(file_name_parts)
-            file_path = self._loaded_data_dir_path / file_name
+            file_path = self._loaded_data_dir_path / "rdf" / file_name
 
         graph_serialize_kwds = {"format": self.__format}
 

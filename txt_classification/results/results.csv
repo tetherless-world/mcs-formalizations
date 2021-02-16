@@ -1,0 +1,3 @@
+Categorizer_Name,Month,Day,Year,Preprocessed,Epochs,wordNgrams,Prompt,Time,World states,Events,Space,Physical Entities,Values and quantities,Classes and instances,Sets
+Alice,12,15,2020,False,25,2,A cat falls out of a tree before it climbs it.,0.12420375645160675,,0.12554854154586792,0.12432199716567993,,,,0.12657234072685242
+

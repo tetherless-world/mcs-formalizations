@@ -1,5 +1,8 @@
 from mcs_formalizations.etl._pipeline import _Pipeline
 from mcs_formalizations.path import DATA_DIR_PATH
+from mcs_formalizations.etl._loader import _Loader
+from mcs_formalizations.etl.loaders.txt_file_loader import TxtFileLoader
+from mcs_formalizations.etl.loaders.csv_file_loader import CsvFileLoader
 
 from pathlib import Path
 
@@ -19,6 +22,8 @@ class CategorizationPipeline(_Pipeline):
     def __init__(
         self,
         *,
+        loader: str = "txt",
+        threshold: int = 3,
         data_dir_path: Path = DATA_DIR_PATH,
         categorizer_name: str,
         month_num: int,
@@ -41,17 +46,27 @@ class CategorizationPipeline(_Pipeline):
             else f"{self.ID}_{categorizer_name}_{month_num}-{day_num}-{year_num}_raw"
         )
 
+        file_loader = (
+            CsvFileLoader(pipeline_id=formatted_id, data_dir_path=data_dir_path, **kwds)
+            if loader == "csv"
+            else TxtFileLoader(
+                pipeline_id=formatted_id, data_dir_path=data_dir_path, **kwds
+            )
+        )
+
         _Pipeline.__init__(
             self,
             extractor=NopExtractor(pipeline_id=self.ID, **kwds),
             id=formatted_id,
             transformer=CategorizationTransformer(
                 pipeline_id=self.ID,
+                threshold=3,
                 data_dir_path=data_dir_path,
                 categorization_metadata=categorization_metadata,
                 preprocess=preprocess,
                 **kwds,
             ),
+            loader=file_loader,
             data_dir_path=data_dir_path,
             **kwds,
         )

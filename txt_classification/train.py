@@ -8,16 +8,23 @@ if __name__ == "__main__":
     #### PARAMETERS #####
     categorizer_name = "Gretchen"
     month_num = 12
-    day_num = 18
+    day_num = 15
     year_num = 2020
     preprocessed = True
+    epochs = 25
     #####################
 
-    suffix = "preprocessed.txt" if preprocessed else "raw.txt"
+    suffix = "preprocessed" if preprocessed else "raw"
 
-    file_path = (
+    ngrams = 1 if preprocessed else 2
+
+    file_path = str(
         DATA_DIR_PATH
-        / f"loaded/categorization_{categorizer_name}_{month_num}-{day_num}-{year_num}_{suffix}"
+        / f"loaded/categorization_{categorizer_name}_{month_num}-{day_num}-{year_num}_{suffix}.txt"
     )
 
-    model = ft.train_supervised(input=file_path)
+    model = ft.train_supervised(input=file_path, epoch=epochs, wordNgrams=ngrams)
+
+    model.save_model(
+        f"./models/model_{categorizer_name}_{month_num}-{day_num}-{year_num}_{suffix}_epochs-{epochs}_ngrams-{ngrams}.bin"
+    )

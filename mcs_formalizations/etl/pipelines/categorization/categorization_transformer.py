@@ -8,6 +8,7 @@ from mcs_formalizations.preprocessing import text_process
 
 from mcs_formalizations.etl._model import _Model
 from mcs_formalizations.etl._transformer import _Transformer
+from mcs_formalizations.helpers import categories
 from mcs_formalizations.etl.models.categorization_metadata import CategorizationMetadata
 from mcs_formalizations.etl.models.categorization_sample import CategorizationSample
 
@@ -17,6 +18,7 @@ class CategorizationTransformer(_Transformer):
         self,
         *,
         pipeline_id: str,
+        threshold: int = 3,
         data_dir_path: Path = DATA_DIR_PATH,
         categorization_metadata: CategorizationMetadata,
         preprocess: bool,
@@ -25,21 +27,9 @@ class CategorizationTransformer(_Transformer):
         _Transformer.__init__(
             self, pipeline_id=pipeline_id, data_dir_path=data_dir_path, **kwds
         )
+        self.threshold = threshold
         self.categorization_metadata = categorization_metadata
         self.preprocess = preprocess
-
-    @property
-    def _categories(self):
-        return [
-            "Time",
-            "World states",
-            "Events",
-            "Space",
-            "Physical Entities",
-            "Values and quantities",
-            "Classes and instances",
-            "Sets",
-        ]
 
     def _categorization_csv_file_path(self, *, metadata: CategorizationMetadata):
         """
@@ -67,7 +57,7 @@ class CategorizationTransformer(_Transformer):
         labels = []
 
         for category, value in rankings.items():
-            if value.strip() != "" and int(value) > 3:
+            if value.strip() != "" and int(value) > self.threshold:
                 formatted_category = "-".join(category.split())
                 labels.append(formatted_category)
 
@@ -90,7 +80,7 @@ class CategorizationTransformer(_Transformer):
                     question=row["question"], preprocess=self.preprocess
                 )
 
-                sample_rankings = {key: row[key] for key in self._categories}
+                sample_rankings = {key: row[key] for key in categories()}
 
                 sample_labels = self.find_categories(rankings=sample_rankings)
 
