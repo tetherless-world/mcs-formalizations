@@ -53,9 +53,9 @@ class CsvFileLoader(_Loader):
                     print(category)
                     print(sample.sample_labels)
                     if category in sample.sample_labels:
-                        sample_line.append("True")
+                        sample_line.append("true")
                     else:
-                        sample_line.append("False")
+                        sample_line.append("false")
                 writer.writerow(sample_line)
 
         self._logger.info("wrote categorizations to %s", file_path)
