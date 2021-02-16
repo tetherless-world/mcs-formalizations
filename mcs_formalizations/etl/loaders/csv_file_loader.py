@@ -26,7 +26,6 @@ class CsvFileLoader(_Loader):
         self.__file_path = file_path
 
     def load(self, *, models: Generator[CategorizationSample, None, None]):
-
         file_path = self.__file_path
         if file_path is None:
             file_name_parts = [
@@ -50,9 +49,8 @@ class CsvFileLoader(_Loader):
                     continue
                 sample_line.append(sample.sample_question)
                 for category in categories():
-                    print(category)
-                    print(sample.sample_labels)
-                    if category in sample.sample_labels:
+                    hyph_category = "-".join(category.split())
+                    if hyph_category in sample.sample_labels:
                         sample_line.append("true")
                     else:
                         sample_line.append("false")

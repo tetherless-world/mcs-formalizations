@@ -15,11 +15,11 @@ def append_list_as_row(file_path, row_list):
 if __name__ == "__main__":
 
     #### PARAMETERS #####
-    categorizer_name = "Alice"
+    categorizer_name = "Gretchen"
     month_num = 12
     day_num = 15
     year_num = 2020
-    preprocessed = False
+    preprocessed = True
     epochs = 25
     prompt = "A cat falls out of a tree before it climbs it."
     #####################

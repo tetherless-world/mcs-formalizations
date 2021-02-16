@@ -19,7 +19,7 @@ class _Pipeline(ABC):
         extractor: _Extractor,
         id: str,
         transformer: _Transformer,
-        loader: Optional[_Loader] = None,
+        loader: _Loader,
         data_dir_path: Path = DATA_DIR_PATH,
         **kwds
     ):
@@ -32,8 +32,6 @@ class _Pipeline(ABC):
         """
         self.__extractor = extractor
         self.__id = id
-        if loader is None:
-            loader = TxtFileLoader(pipeline_id=id, data_dir_path=data_dir_path, **kwds)
         self.__loader = loader
         self.__transformer = transformer
 

@@ -20,7 +20,7 @@ if __name__ == "__main__":
 
     file_path = str(
         DATA_DIR_PATH
-        / f"loaded/categorization_{categorizer_name}_{month_num}-{day_num}-{year_num}_{suffix}.txt"
+        / f"loaded/txt/categorization_{categorizer_name}_{month_num}-{day_num}-{year_num}_{suffix}.txt"
     )
 
     model = ft.train_supervised(input=file_path, epoch=epochs, wordNgrams=ngrams)
