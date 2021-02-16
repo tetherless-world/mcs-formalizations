@@ -17,8 +17,7 @@ if __name__ == "__main__":
 
     file_path = (
         DATA_DIR_PATH
-        / "loaded"
-        / f"categorization_{categorizer_name}_{month_num}-{day_num}-{year_num}_{suffix}"
+        / f"loaded/categorization_{categorizer_name}_{month_num}-{day_num}-{year_num}_{suffix}"
     )
 
     model = ft.train_supervised(input=file_path)
