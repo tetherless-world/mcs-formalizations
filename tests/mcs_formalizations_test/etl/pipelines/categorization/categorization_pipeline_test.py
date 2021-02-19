@@ -11,7 +11,7 @@ def test_extract_transform_load():
         loader="csv",
         threshold=3,
         data_dir_path=DATA_DIR_PATH,
-        categorizer_name="Gretchen",
+        categorizer_name="Weighted",
         month_num=12,
         day_num=15,
         year_num=2020,
