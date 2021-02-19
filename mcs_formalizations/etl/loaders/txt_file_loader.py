@@ -32,7 +32,7 @@ class TxtFileLoader(_Loader):
                 "txt",
             ]
             file_name = ".".join(file_name_parts)
-            file_path = self._loaded_data_dir_path / "txt" / file_name
+            file_path = self._loaded_data_dir_path / "txt/testing" / file_name
 
         self._logger.info("writing categorizations to %s", file_path)
         with open(file_path, "w") as file_:

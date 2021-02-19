@@ -17,11 +17,13 @@ class CsvFileLoader(_Loader):
     def __init__(
         self,
         *,
+        binary: bool = True,
         compress: bool = True,
         file_path: Optional[Path] = None,
         **kwds,
     ):
         _Loader.__init__(self, **kwds)
+        self.__binary = binary
         self.__compress = compress
         self.__file_path = file_path
 
@@ -47,13 +49,20 @@ class CsvFileLoader(_Loader):
                 sample_line = []
                 if len(sample.sample_labels) == 0:
                     continue
-                sample_line.append(sample.sample_question)
+
+                sample_line.append('"' + sample.sample_question + '"')
                 for category in categories():
                     hyph_category = "-".join(category.split())
                     if hyph_category in sample.sample_labels:
-                        sample_line.append("true")
+                        if self.__binary:
+                            sample_line.append("1")
+                        else:
+                            sample_line.append("true")
                     else:
-                        sample_line.append("false")
+                        if self.__binary:
+                            sample_line.append("0")
+                        else:
+                            sample_line.append("false")
                 writer.writerow(sample_line)
 
         self._logger.info("wrote categorizations to %s", file_path)

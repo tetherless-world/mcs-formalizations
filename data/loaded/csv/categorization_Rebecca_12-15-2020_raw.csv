@@ -1,0 +1,91 @@
+sentence,Time,World states,Events,Space,Physical Entities,Values and quantities,Classes and instances,Sets
+"""If you have a buzz cut, you can put your hair in a pony tail to keep it out of your eyes.""",0,0,0,0,0,0,0,1
+"""In most buildings, the second floor is below the first floor.""",0,0,0,1,0,0,0,0
+"""Cat food is probably on the menu at most restaurants.""",0,0,0,0,0,0,1,1
+"""Most things without eyes don't cry.""",0,0,0,0,0,0,1,1
+"""If you want an athletic physique, you should probably try to significantly increase the amount of fat on your body.""",0,0,0,0,0,0,1,0
+"""A cowboy hat won't shade your face from the sun.""",0,0,0,0,1,0,1,0
+"""Viruses have mouths.""",0,0,0,0,0,0,1,0
+"""Those not yet born cannot be senior executives.""",0,1,0,0,0,0,1,0
+"""If clothing item A is worn over clothing item B, then you do not put on A before putting on B.""",1,0,0,1,0,0,0,0
+"""Cooked noodles are not rigid.""",0,0,0,0,1,0,1,0
+"""The Atlantic Ocean is a body of water.""",0,0,0,0,0,0,1,0
+"""Most doctors haven't gone to college.""",0,0,0,0,0,0,1,1
+"""You have to decide to take a breath before you can do it.""",1,0,1,0,0,0,0,0
+"""If you are drinking beer, you are drinking something carbonated.""",0,0,0,0,0,0,1,0
+"""Internal parts of opaque objects are not visible from the outside.""",0,0,0,1,1,0,1,0
+"""Phoenix, AZ currently has both a dry climate and a rainy climate.""",0,1,0,0,0,0,1,1
+"""Most people are excited to learn they caught the flu on vacation.""",1,0,0,0,0,0,0,0
+"""To see what is on the other side of a glass window, you usually have to open it.""",0,0,0,1,1,0,1,0
+"""A feeling of love is the opposite of a feeling of hate.""",0,0,0,0,0,0,0,1
+"""People don't like things they find disgusting.""",0,0,0,0,0,0,1,0
+"""Wearing gloves will help keep your feet from getting cold.""",0,0,0,0,0,0,1,1
+"""In a typical house, there are no rooms that have been designed for a particular purpose.""",0,1,0,1,0,0,1,0
+"""Sue couldn't afford the free gift because it was too expensive.""",0,0,0,0,0,1,1,0
+"""When changing a tire, the tire is removed after the automobile is raised with a jack.""",1,0,0,0,0,0,0,0
+"""Winter coats are for summer.""",1,0,0,0,1,0,1,0
+"""No utensil is a spoon.""",0,0,0,0,1,1,1,0
+"""Blind people cannot drive.""",0,0,0,0,0,0,1,0
+"""Kitchen tools are intended to be used in preparing food or drinks.""",0,0,1,0,1,0,1,0
+"""You don't expect ice rinks to be slippery.""",0,1,0,0,1,0,1,0
+"""Every popsicle is frozen food.""",0,0,0,0,1,1,1,0
+"""If A creates B, then A must exist before B.""",1,0,0,0,0,0,1,1
+"""Styrofoam peanuts are too light to be used as packaging material.""",0,0,0,0,1,0,1,1
+"""Animal skin is frequently completely transparent.""",0,0,0,0,1,0,1,1
+"""At fast food restaurants you typically order at a counter or a drive-through.""",0,0,0,0,0,0,1,1
+"""No spicy thing is bland.""",0,0,0,0,0,1,1,1
+"""Being complimented is pleasant.""",0,0,0,0,0,0,1,0
+"""People who characteristically do something are more likely to do that sort of thing than other people.""",0,1,1,0,0,0,1,1
+"""You light a candle by lighting the wax.""",0,0,0,0,1,0,1,0
+"""180 seconds is greater than 3 weeks.""",1,0,0,0,0,1,1,1
+"""Chickens are birds that often perch in trees.""",0,0,0,0,0,0,1,0
+"""A pocket watch is roughly the size of a golf ball.""",0,0,0,1,1,0,1,0
+"""Chewing gum is something humans can do.""",0,0,0,0,0,0,1,0
+"""If you are capable of performing an activity, you have the skills required for performing that activity.""",0,0,0,0,0,0,1,1
+"""You expect to find a toilet in a kitchen.""",0,0,0,1,0,0,1,0
+"""Carpenters can hammer a nail.""",0,0,0,0,1,0,1,0
+"""Persons with advanced educations can write.""",0,0,0,0,0,0,1,0
+"""You're likely to find a spider web across the door of a busy business.""",0,0,0,0,0,0,1,0
+"""Walking can only be done by things that can move their legs.""",0,0,0,0,0,0,1,0
+"""Walking on two legs is a type of swimming.""",0,0,0,0,0,0,1,1
+"""There is no food that is liked by everyone.""",0,0,0,0,0,1,1,0
+"""Drinking vessels can contain liquid.""",0,0,0,1,1,0,1,0
+"""If part of a written work contains some information, then the work itself contains that information.""",0,0,0,0,0,0,0,1
+"""You can ship a book in a box that is smaller than the book is.""",0,0,0,1,0,0,0,1
+"""Someone applying makeup typically wants to be able to see whatever they are putting makeup on.""",0,0,0,0,0,0,1,1
+"""Actions that are hostile do not express a feeling of good will.""",0,0,0,0,0,0,1,0
+"""London, England is a city.""",0,0,0,1,0,0,1,0
+"""You're likely to find silverware in the drawer of a bedroom dresser.""",0,0,0,1,1,0,1,0
+"""Touching something that is too hot to touch causes pain.""",0,0,0,0,0,0,0,1
+"""The temperature of liquid water is below freezing.""",0,1,0,0,1,1,1,1
+"""Most TVs work without being plugged in.""",0,0,0,0,0,0,1,1
+"""A bowling ball could be used as a volley ball in a pinch.""",0,0,0,0,1,0,1,1
+"""To graduate from a kind of school, you must attend that kind of school.""",0,0,0,0,0,0,1,0
+"""Animals don't live where they can't survive for very long.""",1,1,0,1,1,0,0,1
+"""A professional singer who lost their vocal cords could still do their job.""",0,0,0,0,0,0,1,0
+"""Things that are toxic to humans are typically not ingredients in human food.""",0,0,0,1,0,0,0,0
+"""If a body part is necessary for some activity, things that lack that part can't do that activity.""",0,0,0,0,1,0,0,0
+"""Most cotton balls are dense, heavy objects.""",0,0,0,1,1,0,1,0
+"""Sand castles are typically intended to house humans.""",0,0,0,1,1,0,0,1
+"""To function as a paperweight, an object must be at least somewhat heavy.""",0,0,0,0,1,0,1,1
+"""Aquatic organisms don't have enough legs to ride a bicycle.""",0,0,0,0,1,0,1,1
+"""You can usually eat the materials used to construct buildings intended to shelter humans.""",0,0,0,0,1,0,0,1
+"""An observer who is outside an opaque container cannot see something that is completely inside that container.""",0,0,0,1,1,0,1,0
+"""Adult animals are typically older than juvenile animals.""",0,0,0,0,0,0,0,1
+"""If animals refuse to eat a kind of substance, they typically refuse to eat objects made of that kind of substance.""",0,0,0,0,0,0,0,1
+"""Being served things for free typically makes customers happy.""",0,0,0,0,0,1,0,0
+"""Milk is a type of dairy product.""",0,0,0,0,1,0,1,0
+"""There are no devices that are designed to keep things cool.""",0,0,0,0,1,1,1,1
+"""Almost anything which is solid, flat, and lightweight can be used as a tray to carry items smaller than it.""",0,0,0,1,0,0,1,1
+"""If A can be stored inside B, then A is smaller than B.""",0,0,0,1,0,0,0,1
+"""The sound a flying bee makes is the same as the sound a piano makes.""",0,0,0,0,0,0,1,1
+"""A dream is not a physical object.""",0,0,0,0,1,0,1,1
+"""Fish can breathe with gills.""",0,0,0,0,1,0,1,0
+"""It is common to find books in libraries.""",0,0,0,1,0,0,1,0
+"""Wood is never used in building homes.""",0,0,0,0,0,1,1,0
+"""If you throw a very fragile object against something as tough as wood, it will probably be damaged.""",0,0,0,0,1,0,1,0
+"""Devices for bathing are typically not found outside rooms designed for bathing.""",0,0,0,0,0,0,1,1
+"""Most people like to injure themselves.""",0,0,0,0,0,0,1,0
+"""An open container can only hold a liquid if it is right side up.""",0,0,0,1,1,0,0,1
+"""Chocolate milk and regular milk are different colors.""",0,0,0,0,0,0,0,1
+"""Rooms in buildings typically aren't underwater.""",0,0,0,1,0,0,0,1

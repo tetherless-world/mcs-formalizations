@@ -18,7 +18,7 @@ class CategorizationTransformer(_Transformer):
         self,
         *,
         pipeline_id: str,
-        threshold: int = 3,
+        threshold: int,
         data_dir_path: Path = DATA_DIR_PATH,
         categorization_metadata: CategorizationMetadata,
         preprocess: bool,
@@ -39,7 +39,7 @@ class CategorizationTransformer(_Transformer):
         """
         return (
             self._pipeline_data_dir_path
-            / f"{metadata.categorizer_name}_Categorization_{metadata.month_num}-{metadata.day_num}-{metadata.year_num}.csv"
+            / f"{metadata.categorizer_name}_Categorization_{metadata.month_num}-{metadata.day_num}-{metadata.year_num}_B.csv"
         )
 
     def clean_question(self, *, question: str, preprocess: bool):
@@ -47,7 +47,6 @@ class CategorizationTransformer(_Transformer):
         parsed = " ".join(question.split()[3:])
 
         if preprocess:
-            print(parsed)
             parsed = text_process(parsed)
 
         return parsed

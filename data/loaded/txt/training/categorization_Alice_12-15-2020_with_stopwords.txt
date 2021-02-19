@@ -1,0 +1,54 @@
+__label__Events the dead can walk
+__label__Time __label__World-states __label__Events __label__Physical-Entities __label__Classes-and-instances you usually cant watch tv during a power outage
+__label__Events if joy ha a bachelor degree then she probably went to college
+__label__Classes-and-instances __label__Sets pilot are more likely than farmer to fly airplane
+__label__Physical-Entities __label__Classes-and-instances __label__Sets a cutting board can be used a a tray
+__label__Events __label__Physical-Entities __label__Classes-and-instances a customer would like being served a glass of water with a cockroach in it
+__label__World-states __label__Events __label__Physical-Entities flashlight work without being plugged in
+__label__Space __label__Physical-Entities __label__Classes-and-instances a parking garage is larger than an automobile
+__label__Classes-and-instances __label__Sets every spoon is a utensil
+__label__Physical-Entities __label__Sets building designed to provide shelter for human are almost never edible
+__label__Events __label__Space __label__Physical-Entities __label__Classes-and-instances carpenter find hammer useful for driving object into other object
+__label__Events the country argentina can cry
+__label__Events you could play ice hockey outside in the summer
+__label__Events __label__Physical-Entities __label__Classes-and-instances you put shoe on before sock
+__label__Physical-Entities __label__Classes-and-instances __label__Sets a cap with no brim provides lot of shade from the bright sun
+__label__Physical-Entities __label__Classes-and-instances __label__Sets the front door of busy business open and close frequently
+__label__Physical-Entities __label__Classes-and-instances __label__Sets the sound of a balloon popping can be loud
+__label__Classes-and-instances __label__Sets you can serve orange juice in a coffee mug
+__label__Classes-and-instances __label__Sets coffee mixed with cream is black
+__label__Events cuddling is typically an expression of hatred
+__label__Values-and-quantities __label__Classes-and-instances __label__Sets a puppy is older than an adult dog
+__label__Classes-and-instances __label__Sets people with buzz cut have very long hair
+__label__Time __label__Events __label__Classes-and-instances __label__Sets if a chicken lay an egg then the chicken existed before the egg
+__label__Classes-and-instances __label__Sets generally winter coat are warm clothing
+__label__Classes-and-instances __label__Sets a fish can ride a bicycle
+__label__Classes-and-instances __label__Sets snake can juggle
+__label__Events __label__Physical-Entities if you throw a wine glass against a wooden floor it will probably shatter
+__label__Classes-and-instances __label__Sets absolutely everyone like blueberry
+__label__Space if a cup contains hot coffee then the cup is presumably right side up
+__label__Classes-and-instances __label__Sets stove are meant to be used in cooking food
+__label__Classes-and-instances __label__Sets a wax candle would work even if it had no wick
+__label__Classes-and-instances if something is a free gift you dont have to pay for it
+__label__Classes-and-instances __label__Sets you can use a cotton ball a a paperweight
+__label__Events __label__Classes-and-instances __label__Sets woman typically put on makeup without a mirror
+__label__Events __label__Physical-Entities __label__Classes-and-instances __label__Sets you can see someone smile even when they are wearing a surgical mask
+__label__Physical-Entities __label__Classes-and-instances __label__Sets every cotton ball is a lightweight relatively small object
+__label__Values-and-quantities a few week is greater than a few minute
+__label__Physical-Entities __label__Values-and-quantities __label__Classes-and-instances grandfather clock are bigger than pocket watch
+__label__Time __label__Events when dining at a fastfood restaurant you are usually seated before ordering food
+__label__Events __label__Physical-Entities if you spill grape soda on white clothes it usually wont stain them
+__label__Events __label__Physical-Entities __label__Classes-and-instances when duke changed the tire on his car he lifted the car with the jack after removing the old tire
+__label__World-states being sick is usually unpleasant for people
+__label__Space __label__Physical-Entities __label__Classes-and-instances __label__Sets if joy is on the first floor and rob is on the second floor then joy is above rob
+__label__Physical-Entities __label__Classes-and-instances __label__Sets bedroom dresser are typically used to store clothes
+__label__World-states __label__Events __label__Physical-Entities a human would not mind touching a burner while the stove is on
+__label__Events __label__Physical-Entities __label__Classes-and-instances __label__Sets styrofoam peanut are often used to protect fragile object during transport
+__label__Events when you encounter a bird you expect to be able to see it heart
+__label__Classes-and-instances __label__Sets newspaper contain news
+__label__Physical-Entities __label__Classes-and-instances __label__Sets most kitchen are not bathroom
+__label__Physical-Entities __label__Classes-and-instances people often eat ceramic plate
+__label__Space __label__Physical-Entities __label__Classes-and-instances __label__Sets you are likely to find a bathtub in a kitchen
+__label__Physical-Entities __label__Classes-and-instances __label__Sets wood is often used in building structure
+__label__Time barack obama wa president of the united state in the year
+__label__Space __label__Physical-Entities __label__Classes-and-instances __label__Sets london england is located inside a suitcase

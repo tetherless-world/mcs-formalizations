@@ -1,0 +1,93 @@
+__label__World-states __label__Physical-Entities __label__Classes-and-instances Horses live in the sea.
+__label__World-states __label__Physical-Entities __label__Classes-and-instances The dead can walk.
+__label__World-states You usually can't watch TV during a power outage.
+__label__Time __label__World-states __label__Events __label__Physical-Entities If Joy has a bachelor's degree, then she probably went to college.
+__label__Classes-and-instances Pilots are more likely than farmers to fly airplanes.
+__label__Physical-Entities __label__Sets A cutting board can be used as a tray.
+__label__World-states __label__Events __label__Physical-Entities A customer would like being served a glass of water with a cockroach in it.
+__label__Physical-Entities __label__Classes-and-instances Flashlights work without being plugged in.
+__label__Space __label__Physical-Entities __label__Classes-and-instances A parking garage is larger than an automobile.
+__label__Classes-and-instances Vocal cords are necessary in order to sing.
+__label__Physical-Entities __label__Classes-and-instances Every spoon is a utensil.
+__label__Physical-Entities __label__Classes-and-instances Buildings designed to provide shelter for humans are almost never edible.
+__label__Physical-Entities You can't drown a fish in water.
+__label__Physical-Entities __label__Classes-and-instances Carpenters find hammers useful for driving objects into other objects.
+__label__World-states The country Argentina can cry.
+__label__Physical-Entities __label__Classes-and-instances Wool scarves are often salad ingredients.
+__label__Physical-Entities Ice rinks are made primarily of ice.
+__label__Classes-and-instances Kitchens are typically rooms dedicated to preparing food.
+__label__Time __label__World-states You could play ice hockey outside in the summer.
+__label__Physical-Entities Beer does not contain fizz or bubbles.
+__label__Time You put shoes on before socks.
+__label__Physical-Entities A cap with no brim provides lots of shade from the bright sun.
+__label__World-states __label__Events The front doors of busy businesses open and close frequently.
+__label__World-states __label__Events The sound of a balloon popping can be loud.
+__label__Space __label__Physical-Entities __label__Sets You can serve orange juice in a coffee mug.
+__label__Physical-Entities Coffee mixed with cream is black.
+__label__Classes-and-instances Cuddling is typically an expression of hatred.
+__label__Time __label__Physical-Entities A puppy is older than an adult dog.
+__label__Physical-Entities __label__Classes-and-instances __label__Sets People with buzz cuts have very long hair.
+__label__Time __label__Events __label__Physical-Entities If a chicken lays an egg, then the chicken existed before the egg.
+__label__Physical-Entities __label__Classes-and-instances __label__Sets Generally, winter coats are warm clothing.
+__label__Physical-Entities A fish can ride a bicycle.
+__label__Physical-Entities Snakes can juggle.
+__label__Physical-Entities __label__Classes-and-instances If you throw a wine glass against a wooden floor, it will probably shatter.
+__label__Sets Absolutely everyone likes blueberries.
+__label__Physical-Entities __label__Classes-and-instances __label__Sets Ice water is colder than ice.
+__label__Space __label__Physical-Entities If a cup contains hot coffee, then the cup is presumably right side up.
+__label__Time __label__Classes-and-instances An adult can walk and chew gum at the same time.
+__label__Classes-and-instances __label__Sets People like being complimented.
+__label__Events __label__Sets You can stab someone with a wet noodle.
+__label__Physical-Entities __label__Classes-and-instances Stoves are meant to be used in cooking food.
+__label__Physical-Entities A wax candle would work even if it had no wick.
+__label__Physical-Entities __label__Sets You can use a cotton ball as a paperweight.
+__label__Sets Women typically put on makeup without a mirror.
+__label__Physical-Entities Refrigerators are used to keep things cool.
+__label__Space __label__Physical-Entities __label__Classes-and-instances __label__Sets A moth ball can be used as a volley ball in a pinch.
+__label__Sets A customer would like being offered free dessert.
+__label__Space __label__Physical-Entities __label__Classes-and-instances Every cotton ball is a lightweight, relatively small object.
+__label__Space __label__Physical-Entities __label__Classes-and-instances You typically can't see what's inside of a sealed can.
+__label__Time __label__Values-and-quantities __label__Classes-and-instances __label__Sets A few weeks is greater than a few minutes.
+__label__Space __label__Physical-Entities __label__Sets Grandfather clocks are bigger than pocket watches.
+__label__Events When dining at a fast-food restaurant, you are usually seated before ordering food.
+__label__Time __label__Events When Duke changed the tire on his car, he lifted the car with the jack after removing the old tire.
+__label__Space Dolphins sleep in bedrooms.
+__label__World-states __label__Classes-and-instances __label__Sets Generally, people with athletic physiques are not overweight.
+__label__Space __label__Physical-Entities __label__Classes-and-instances Sand castles are almost always bigger than people .
+__label__Events Being sick is usually unpleasant for people.
+__label__Space If Joy is on the first floor, and Rob is on the second floor, then Joy is above Rob.
+__label__Space __label__Physical-Entities __label__Classes-and-instances __label__Sets Bedroom dressers are typically used to store clothes.
+__label__Time __label__Events A human would not mind touching a burner while the stove is on.
+__label__Physical-Entities __label__Classes-and-instances Styrofoam peanuts are often used to protect fragile objects during transport.
+__label__Space __label__Sets Objects usually cannot fit inside anything that is smaller than they are.
+__label__Time __label__World-states __label__Events When you encounter a bird, you expect to be able to see its heart.
+__label__Classes-and-instances Pet food is not intended for human consumption.
+__label__Classes-and-instances Viruses can't sing.
+__label__World-states __label__Physical-Entities __label__Classes-and-instances __label__Sets Gloves are typically worn on feet.
+__label__Classes-and-instances __label__Sets Animal fur, feathers, and skin are usually not see through.
+__label__Sets If someone is allergic to dairy, they shouldn't drink milk.
+__label__Time __label__World-states __label__Space __label__Sets The same region cannot have both a dry climate and a rainy climate at the same time.
+__label__Sets If someone is capable of playing ice hockey, are they capable of ice skating.
+__label__Space __label__Physical-Entities __label__Sets You are more likely to find a book in a library than in a tree.
+__label__Sets A stove burner that is on is usually too hot to touch.
+__label__Space __label__Classes-and-instances __label__Sets Chickens are typically found on the ground rather than in the air.
+__label__Time __label__Events __label__Classes-and-instances __label__Sets Airplane pilots frequently fly planes.
+__label__Physical-Entities Cyanide is an ingredient in ice cream.
+__label__Classes-and-instances Surgeons can write.
+__label__Events __label__Classes-and-instances To become a doctor you have to received an advanced education.
+__label__Space __label__Physical-Entities __label__Classes-and-instances Newspapers contain news.
+__label__Space __label__Physical-Entities __label__Classes-and-instances The Atlantic ocean is wet.
+__label__Classes-and-instances __label__Sets Most kitchens are not bathrooms.
+__label__Space __label__Classes-and-instances __label__Sets You are likely to find a bathtub in a kitchen.
+__label__Classes-and-instances __label__Sets Someone born without eyes could still drive a car.
+__label__Classes-and-instances Hot sauce is bland.
+__label__Classes-and-instances __label__Sets Glass window panes are usually transparent.
+__label__Space __label__Physical-Entities __label__Classes-and-instances __label__Sets Wood is often used in building structures.
+__label__Space You can put a dream in your pocket.
+__label__Physical-Entities __label__Classes-and-instances Pianos make a buzzing sound.
+__label__Time __label__Classes-and-instances An adult can walk and swim at the same time.
+__label__Classes-and-instances A popsicle can catch a cold.
+__label__Physical-Entities __label__Classes-and-instances Chocolate milk is white.
+__label__Space You are likely to find a frying pan in a bathroom.
+__label__Time __label__World-states __label__Events Barack Obama was president of the United States in the year 1220.
+__label__Space London, England is located inside a suitcase.

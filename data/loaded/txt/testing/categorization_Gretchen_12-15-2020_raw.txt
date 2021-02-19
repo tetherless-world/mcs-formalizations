@@ -1,0 +1,100 @@
+__label__Physical-Entities __label__Classes-and-instances If you have a buzz cut, you can put your hair in a pony tail to keep it out of your eyes.
+__label__Space __label__Values-and-quantities In most buildings, the second floor is below the first floor.
+__label__Physical-Entities __label__Sets Cat food is probably on the menu at most restaurants.
+__label__Physical-Entities __label__Classes-and-instances __label__Sets Most things without eyes don't cry.
+__label__Classes-and-instances If you want an athletic physique, you should probably try to significantly increase the amount of fat on your body.
+__label__Physical-Entities __label__Classes-and-instances A cowboy hat won't shade your face from the sun.
+__label__Classes-and-instances Viruses have mouths.
+__label__Classes-and-instances __label__Sets Those not yet born cannot be senior executives.
+__label__Time __label__Events __label__Space If clothing item A is worn over clothing item B, then you do not put on A before putting on B.
+__label__Physical-Entities __label__Classes-and-instances Cooked noodles are not rigid.
+__label__Physical-Entities __label__Classes-and-instances __label__Sets The Atlantic Ocean is a body of water.
+__label__Classes-and-instances __label__Sets Most doctors haven't gone to college.
+__label__Time __label__Events __label__Physical-Entities You have to decide to take a breath before you can do it.
+__label__Space __label__Physical-Entities Mixing cream in coffee doesn't change its color.
+__label__Physical-Entities __label__Classes-and-instances __label__Sets If you are drinking beer, you are drinking something carbonated.
+__label__Space __label__Physical-Entities Internal parts of opaque objects are not visible from the outside.
+__label__World-states __label__Physical-Entities __label__Sets Phoenix, AZ currently has both a dry climate and a rainy climate.
+__label__Time __label__Events __label__Classes-and-instances __label__Sets Most people are excited to learn they caught the flu on vacation.
+__label__Space __label__Physical-Entities To see what is on the other side of a glass window, you usually have to open it.
+__label__Sets A feeling of love is the opposite of a feeling of hate.
+__label__Classes-and-instances __label__Sets People don't like things they find disgusting.
+__label__Physical-Entities __label__Classes-and-instances Wearing gloves will help keep your feet from getting cold.
+__label__Space __label__Classes-and-instances __label__Sets In a typical house, there are no rooms that have been designed for a particular purpose.
+__label__Classes-and-instances Sue couldn't afford the free gift because it was too expensive.
+__label__Time __label__Events When changing a tire, the tire is removed after the automobile is raised with a jack.
+__label__Classes-and-instances __label__Sets Winter coats are for summer.
+__label__Sets No utensil is a spoon.
+__label__Physical-Entities __label__Classes-and-instances Blind people cannot drive.
+__label__Events __label__Classes-and-instances __label__Sets Kitchen tools are intended to be used in preparing food or drinks.
+__label__Physical-Entities You don't expect ice rinks to be slippery.
+__label__Physical-Entities __label__Classes-and-instances __label__Sets Every popsicle is frozen food.
+__label__Time __label__Events If A creates B, then A must exist before B.
+__label__Physical-Entities __label__Classes-and-instances __label__Sets Styrofoam peanuts are too light to be used as packaging material.
+__label__Physical-Entities Animal skin is frequently completely transparent.
+__label__Classes-and-instances At fast food restaurants you typically order at a counter or a drive-through.
+__label__Classes-and-instances __label__Sets No spicy thing is bland.
+__label__Sets Being complimented is pleasant.
+__label__Classes-and-instances People who characteristically do something are more likely to do that sort of thing than other people.
+__label__Physical-Entities __label__Classes-and-instances You light a candle by lighting the wax.
+__label__Time __label__Values-and-quantities 180 seconds is greater than 3 weeks.
+__label__Physical-Entities __label__Classes-and-instances __label__Sets Chickens are birds that often perch in trees.
+__label__Space __label__Physical-Entities __label__Classes-and-instances __label__Sets A pocket watch is roughly the size of a golf ball.
+__label__Physical-Entities __label__Classes-and-instances Chewing gum is something humans can do.
+__label__Classes-and-instances If you are capable of performing an activity, you have the skills required for performing that activity.
+__label__Sets You expect to find a toilet in a kitchen.
+__label__Physical-Entities __label__Classes-and-instances Carpenters can hammer a nail.
+__label__Physical-Entities __label__Classes-and-instances __label__Sets Persons with advanced educations can write.
+__label__Space __label__Classes-and-instances __label__Sets You're likely to find a spider web across the door of a busy business.
+__label__Physical-Entities __label__Classes-and-instances Walking can only be done by things that can move their legs.
+__label__Classes-and-instances __label__Sets Walking on two legs is a type of swimming.
+__label__Sets There is no food that is liked by everyone.
+__label__Space __label__Physical-Entities __label__Classes-and-instances Drinking vessels can contain liquid.
+__label__Space __label__Sets If part of a written work contains some information, then the work itself contains that information.
+__label__Space You can ship a book in a box that is smaller than the book is.
+__label__Events __label__Classes-and-instances Someone applying makeup typically wants to be able to see whatever they are putting makeup on.
+__label__Classes-and-instances __label__Sets Actions that are hostile do not express a feeling of good will.
+__label__Classes-and-instances __label__Sets London, England is a city.
+__label__Classes-and-instances __label__Sets You're likely to find silverware in the drawer of a bedroom dresser.
+__label__Events __label__Physical-Entities __label__Classes-and-instances Touching something that is too hot to touch causes pain.
+__label__Physical-Entities __label__Classes-and-instances The temperature of liquid water is below freezing.
+__label__Physical-Entities Most TVs work without being plugged in.
+__label__Space __label__Physical-Entities __label__Classes-and-instances Objects are not usually found in places where they or their parts would melt.
+__label__Physical-Entities __label__Sets A bowling ball could be used as a volley ball in a pinch.
+__label__Time __label__Physical-Entities __label__Classes-and-instances You can't read a book using a flashlight during a power outage.
+__label__Time __label__Events __label__Classes-and-instances To graduate from a kind of school, you must attend that kind of school.
+__label__Classes-and-instances __label__Sets Animals don't live where they can't survive for very long.
+__label__Classes-and-instances __label__Sets Very few airplane pilots know what the controls in the cockpit do.
+__label__Time __label__Physical-Entities __label__Sets A professional singer who lost their vocal cords could still do their job.
+__label__Space __label__Sets Things that are toxic to humans are typically not ingredients in human food.
+__label__Physical-Entities __label__Sets You can use grape soda to rub a stain out of white clothes.
+__label__Physical-Entities __label__Sets Stoves cannot be used to generate heat.
+__label__Classes-and-instances If a body part is necessary for some activity, things that lack that part can't do that activity.
+__label__Physical-Entities __label__Classes-and-instances Most cotton balls are dense, heavy objects.
+__label__World-states __label__Physical-Entities When a stove burner is off it is usually too hot to touch.
+__label__Physical-Entities __label__Classes-and-instances Sand castles are typically intended to house humans.
+__label__Space __label__Physical-Entities If a person is wearing a clothing item over the part of the body used to make a facial expression, then others' view of that expression is blocked.
+__label__Physical-Entities __label__Classes-and-instances __label__Sets To function as a paperweight, an object must be at least somewhat heavy.
+__label__Physical-Entities __label__Classes-and-instances __label__Sets Aquatic organisms don't have enough legs to ride a bicycle.
+__label__Physical-Entities __label__Sets You can usually eat the materials used to construct buildings intended to shelter humans.
+__label__Space __label__Physical-Entities An observer who is outside an opaque container cannot see something that is completely inside that container.
+__label__Classes-and-instances __label__Sets Adult animals are typically older than juvenile animals.
+__label__Physical-Entities __label__Sets If animals refuse to eat a kind of substance, they typically refuse to eat objects made of that kind of substance.
+__label__Events __label__Sets Being served things for free typically makes customers happy.
+__label__Classes-and-instances __label__Sets Milk is a type of dairy product.
+__label__Physical-Entities __label__Classes-and-instances __label__Sets There are no devices that are designed to keep things cool.
+__label__Space __label__Physical-Entities __label__Classes-and-instances __label__Sets Almost anything which is solid, flat, and lightweight can be used as a tray to carry items smaller than it.
+__label__Space If A can be stored inside B, then A is smaller than B.
+__label__Physical-Entities __label__Sets The sound a flying bee makes is the same as the sound a piano makes.
+__label__Classes-and-instances A dream is not a physical object.
+__label__Physical-Entities __label__Classes-and-instances Fish can breathe with gills.
+__label__Classes-and-instances __label__Sets It is common to find books in libraries.
+__label__Sets Wood is never used in building homes.
+__label__Events __label__Space __label__Physical-Entities If you throw a very fragile object against something as tough as wood, it will probably be damaged.
+__label__Physical-Entities The sound of a balloon popping never startles anyone.
+__label__Space __label__Sets Devices for bathing are typically not found outside rooms designed for bathing.
+__label__Sets Most people like to injure themselves.
+__label__Space __label__Physical-Entities An open container can only hold a liquid if it is right side up.
+__label__Sets Chocolate milk and regular milk are different colors.
+__label__Sets Rooms in buildings typically aren't underwater.
+__label__Sets Clothing items usually aren't edible by humans.

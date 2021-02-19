@@ -1,0 +1,99 @@
+__label__Physical-Entities __label__Classes-and-instances __label__Sets horse live sea
+__label__Physical-Entities __label__Classes-and-instances __label__Sets the dead walk
+__label__Time __label__World-states __label__Events __label__Physical-Entities you usually cant watch tv power outage
+__label__Events if joy bachelor degree probably went college
+__label__Classes-and-instances __label__Sets pilot likely farmer fly airplane
+__label__Physical-Entities __label__Classes-and-instances __label__Sets a cutting board used tray
+__label__Physical-Entities a customer would like served glass water cockroach
+__label__Physical-Entities __label__Classes-and-instances __label__Sets flashlight work without plugged
+__label__Space a parking garage larger automobile
+__label__Physical-Entities vocal cord necessary order sing
+__label__Physical-Entities __label__Sets every spoon utensil
+__label__Physical-Entities building designed provide shelter human almost never edible
+__label__Physical-Entities you cant drown fish water
+__label__Physical-Entities carpenter find hammer useful driving object object
+__label__Events __label__Classes-and-instances the country argentina cry
+__label__Physical-Entities wool scarf often salad ingredient
+__label__Physical-Entities __label__Classes-and-instances ice rink made primarily ice
+__label__Physical-Entities __label__Sets kitchen typically room dedicated preparing food
+__label__World-states __label__Events you could play ice hockey outside summer
+__label__Physical-Entities __label__Classes-and-instances beer contain fizz bubble
+__label__Events __label__Sets most people like thing cause discomfort
+__label__Time __label__Events you put shoe sock
+__label__Physical-Entities a cap brim provides lot shade bright sun
+__label__Physical-Entities the front door busy business open close frequently
+__label__Events __label__Physical-Entities the sound balloon popping loud
+__label__Physical-Entities __label__Classes-and-instances you serve orange juice coffee mug
+__label__Physical-Entities __label__Classes-and-instances coffee mixed cream black
+__label__World-states cuddling typically expression hatred
+__label__Time __label__Values-and-quantities __label__Classes-and-instances a puppy older adult dog
+__label__Physical-Entities __label__Classes-and-instances __label__Sets people buzz cut long hair
+__label__Time __label__Events if chicken lay egg chicken existed egg
+__label__Physical-Entities __label__Sets generally winter coat warm clothing
+__label__Events __label__Physical-Entities a fish ride bicycle
+__label__Events __label__Physical-Entities snake juggle
+__label__World-states __label__Events __label__Physical-Entities if throw wine glass wooden floor probably shatter
+__label__Sets absolutely everyone like blueberry
+__label__Physical-Entities ice water colder ice
+__label__Events stabbing someone typically express love
+__label__World-states __label__Events __label__Physical-Entities if cup contains hot coffee cup presumably right side
+__label__Time __label__Events __label__Physical-Entities an adult walk chew gum time
+__label__Events __label__Sets people like complimented
+__label__Events __label__Physical-Entities you stab someone wet noodle
+__label__Events __label__Physical-Entities __label__Classes-and-instances __label__Sets stove meant used cooking food
+__label__Physical-Entities __label__Classes-and-instances a wax candle would work even wick
+__label__World-states __label__Events if something free gift dont pay
+__label__Events __label__Physical-Entities __label__Classes-and-instances __label__Sets you use cotton ball paperweight
+__label__Events __label__Sets woman typically put makeup without mirror
+__label__World-states __label__Physical-Entities __label__Sets refrigerator used keep thing cool
+__label__Physical-Entities __label__Classes-and-instances a moth ball used volley ball pinch
+__label__Events __label__Physical-Entities you see someone smile even wearing surgical mask
+__label__Events a customer would like offered free dessert
+__label__Physical-Entities __label__Sets every cotton ball lightweight relatively small object
+__label__Events __label__Physical-Entities you typically cant see whats inside sealed
+__label__Values-and-quantities a week greater minute
+__label__Space __label__Physical-Entities grandfather clock bigger pocket watch
+__label__Time __label__Events when dining fastfood restaurant usually seated ordering food
+__label__World-states __label__Events __label__Physical-Entities if spill grape soda white clothes usually wont stain
+__label__Time __label__Events __label__Physical-Entities when duke changed tire car lifted car jack removing old tire
+__label__Sets dolphin sleep bedroom
+__label__Physical-Entities __label__Classes-and-instances __label__Sets generally people athletic physique overweight
+__label__Space __label__Physical-Entities sand castle almost always bigger people
+__label__Space if joy first floor rob second floor joy rob
+__label__Physical-Entities __label__Classes-and-instances __label__Sets bedroom dresser typically used store clothes
+__label__Physical-Entities __label__Sets a human would mind touching burner stove
+__label__Physical-Entities __label__Classes-and-instances styrofoam peanut often used protect fragile object transport
+__label__Space __label__Physical-Entities object usually cannot fit inside anything smaller
+__label__World-states __label__Physical-Entities when encounter bird expect able see heart
+__label__World-states __label__Physical-Entities pet food intended human consumption
+__label__Classes-and-instances virus cant sing
+__label__Physical-Entities __label__Sets glove typically worn foot
+__label__Physical-Entities __label__Classes-and-instances animal fur feather skin usually see
+__label__World-states __label__Events __label__Classes-and-instances if someone allergic dairy shouldnt drink milk
+__label__Time __label__World-states __label__Events the region cannot dry climate rainy climate time
+__label__Events __label__Classes-and-instances if someone capable playing ice hockey capable ice skating
+__label__Physical-Entities __label__Sets you likely find book library tree
+__label__Events __label__Physical-Entities __label__Classes-and-instances a stove burner usually hot touch
+__label__Physical-Entities __label__Sets chicken typically found ground rather air
+__label__Events __label__Physical-Entities __label__Classes-and-instances airplane pilot frequently fly plane
+__label__World-states __label__Physical-Entities __label__Classes-and-instances cyanide ingredient ice cream
+__label__Events __label__Classes-and-instances animal breathe without thinking
+__label__Events __label__Classes-and-instances surgeon write
+__label__Events __label__Classes-and-instances to become doctor received advanced education
+__label__Physical-Entities newspaper contain news
+__label__World-states __label__Physical-Entities __label__Classes-and-instances the atlantic ocean wet
+__label__Physical-Entities __label__Sets most kitchen bathroom
+__label__Physical-Entities __label__Classes-and-instances people often eat ceramic plate
+__label__Physical-Entities __label__Classes-and-instances you likely find bathtub kitchen
+__label__Physical-Entities __label__Classes-and-instances someone born without eye could still drive car
+__label__Physical-Entities __label__Classes-and-instances hot sauce bland
+__label__Physical-Entities __label__Classes-and-instances glass window pane usually transparent
+__label__Physical-Entities __label__Sets wood often used building structure
+__label__Classes-and-instances you put dream pocket
+__label__Physical-Entities __label__Classes-and-instances piano make buzzing sound
+__label__Time __label__World-states __label__Events __label__Physical-Entities __label__Classes-and-instances an adult walk swim time
+__label__Physical-Entities __label__Classes-and-instances a popsicle catch cold
+__label__Physical-Entities __label__Classes-and-instances chocolate milk white
+__label__Space __label__Sets you likely find frying pan bathroom
+__label__Time __label__Events barack obama president united state year
+__label__Space __label__Classes-and-instances london england located inside suitcase

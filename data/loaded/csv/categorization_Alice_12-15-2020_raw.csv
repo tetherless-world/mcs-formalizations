@@ -1,0 +1,49 @@
+sentence,Time,World states,Events,Space,Physical Entities,Values and quantities,Classes and instances,Sets
+"""In most buildings, the second floor is below the first floor.""",0,0,0,1,1,0,1,1
+"""Cat food is probably on the menu at most restaurants.""",0,0,0,0,0,0,1,1
+"""Most things without eyes don't cry.""",0,0,1,0,0,0,1,1
+"""The Atlantic Ocean is a body of water.""",0,0,0,0,1,0,1,1
+"""Most doctors haven't gone to college.""",0,0,1,0,0,0,0,0
+"""You have to decide to take a breath before you can do it.""",1,0,1,0,0,0,0,0
+"""Mixing cream in coffee doesn't change its color.""",0,0,1,0,1,0,0,0
+"""If you are drinking beer, you are drinking something carbonated.""",0,0,1,0,0,0,1,1
+"""Internal parts of opaque objects are not visible from the outside.""",0,0,0,0,0,0,1,1
+"""Phoenix, AZ currently has both a dry climate and a rainy climate.""",1,1,0,0,0,0,0,0
+"""Most people are excited to learn they caught the flu on vacation.""",0,0,1,0,0,0,0,0
+"""Every popsicle is frozen food.""",0,0,0,0,1,0,1,1
+"""If A creates B, then A must exist before B.""",1,0,1,0,0,0,0,0
+"""At fast food restaurants you typically order at a counter or a drive-through.""",0,0,1,0,0,0,0,0
+"""No spicy thing is bland.""",0,0,0,0,0,0,1,1
+"""Being complimented is pleasant.""",0,0,0,0,0,0,1,1
+"""People who characteristically do something are more likely to do that sort of thing than other people.""",0,0,0,0,0,0,1,1
+"""You light a candle by lighting the wax.""",0,0,1,0,0,0,0,0
+"""180 seconds is greater than 3 weeks.""",0,0,0,0,0,1,0,0
+"""You expect to find a toilet in a kitchen.""",0,0,0,0,0,0,1,1
+"""Walking on two legs is a type of swimming.""",0,0,0,0,0,0,0,1
+"""Drinking vessels can contain liquid.""",0,0,0,0,0,0,0,1
+"""If part of a written work contains some information, then the work itself contains that information.""",0,0,0,0,0,0,0,1
+"""You can ship a book in a box that is smaller than the book is.""",0,0,0,1,0,0,0,1
+"""Actions that are hostile do not express a feeling of good will.""",0,0,0,0,0,0,1,1
+"""London, England is a city.""",0,0,0,0,1,0,1,1
+"""Most TVs work without being plugged in.""",0,0,0,0,1,0,1,1
+"""Objects are not usually found in places where they or their parts would melt.""",0,0,0,0,0,0,1,1
+"""You can't read a book using a flashlight during a power outage.""",0,0,1,0,0,0,0,0
+"""To graduate from a kind of school, you must attend that kind of school.""",0,0,1,0,0,0,1,1
+"""Very few airplane pilots know what the controls in the cockpit do.""",0,0,0,0,1,0,0,0
+"""A professional singer who lost their vocal cords could still do their job.""",0,0,0,0,0,0,0,1
+"""Things that are toxic to humans are typically not ingredients in human food.""",0,0,0,0,1,0,0,1
+"""Stoves cannot be used to generate heat.""",0,0,0,0,0,0,1,1
+"""If a body part is necessary for some activity, things that lack that part can't do that activity.""",0,0,0,0,0,0,1,1
+"""Most cotton balls are dense, heavy objects.""",0,0,0,0,0,0,1,1
+"""Milk is a type of dairy product.""",0,0,0,0,0,0,0,1
+"""There are no devices that are designed to keep things cool.""",0,0,0,0,0,0,1,1
+"""If A can be stored inside B, then A is smaller than B.""",0,0,0,1,0,1,0,1
+"""A dream is not a physical object.""",0,0,0,0,0,0,0,1
+"""Fish can breathe with gills.""",0,0,1,0,0,0,1,1
+"""It is common to find books in libraries.""",0,0,0,1,1,0,0,1
+"""If you throw a very fragile object against something as tough as wood, it will probably be damaged.""",0,0,1,0,1,0,0,0
+"""Devices for bathing are typically not found outside rooms designed for bathing.""",0,0,0,1,1,0,0,0
+"""Most people like to injure themselves.""",0,0,1,0,0,0,0,0
+"""An open container can only hold a liquid if it is right side up.""",0,0,0,0,1,0,0,0
+"""Rooms in buildings typically aren't underwater.""",0,0,0,0,0,0,0,1
+"""Clothing items usually aren't edible by humans.""",0,0,0,0,0,0,0,1

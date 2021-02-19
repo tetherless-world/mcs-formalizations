@@ -1,201 +1,101 @@
 sentence,Time,World states,Events,Space,Physical Entities,Values and quantities,Classes and instances,Sets
-Horses live in the sea.,false,false,false,false,true,false,true,true
-The dead can walk.,false,true,false,false,true,false,true,true
-You usually can't watch TV during a power outage.,false,true,true,false,true,false,false,false
-"If Joy has a bachelor's degree, then she probably went to college.",false,true,true,false,false,false,true,false
-Pilots are more likely than farmers to fly airplanes.,false,false,false,false,false,false,true,true
-A cutting board can be used as a tray.,false,false,false,true,true,false,false,true
-A customer would like being served a glass of water with a cockroach in it.,false,false,true,false,false,false,false,true
-Flashlights work without being plugged in.,false,false,false,false,true,false,true,false
-A parking garage is larger than an automobile.,false,false,false,true,false,false,true,false
-Vocal cords are necessary in order to sing.,false,false,false,false,true,false,false,false
-Every spoon is a utensil.,false,false,false,false,false,false,true,true
-Buildings designed to provide shelter for humans are almost never edible.,false,false,false,false,true,false,true,true
-You can't drown a fish in water.,false,false,false,false,true,false,true,false
-Carpenters find hammers useful for driving objects into other objects.,false,false,false,true,true,false,true,true
-The country Argentina can cry.,false,false,false,false,true,false,false,false
-Wool scarves are often salad ingredients.,false,false,false,false,true,false,true,true
-Ice rinks are made primarily of ice.,false,false,false,false,true,false,true,false
-Kitchens are typically rooms dedicated to preparing food.,false,false,true,false,false,false,true,false
-You could play ice hockey outside in the summer.,true,true,false,false,true,false,false,false
-Beer does not contain fizz or bubbles.,false,false,false,false,true,false,true,true
-Most people like doing things that cause them discomfort.,false,false,true,false,false,false,false,true
-You put shoes on before socks.,true,false,true,false,false,false,false,false
-A cap with no brim provides lots of shade from the bright sun.,false,false,false,false,true,false,true,false
-The front doors of busy businesses open and close frequently.,false,false,false,false,false,false,false,true
-The sound of a balloon popping can be loud.,false,false,false,false,true,false,false,false
-You can serve orange juice in a coffee mug.,false,false,false,true,false,false,false,true
-Coffee mixed with cream is black.,false,false,false,false,true,false,true,false
-Cuddling is typically an expression of hatred.,false,false,true,false,false,false,false,true
-A puppy is older than an adult dog.,true,true,false,false,false,false,true,true
-People with buzz cuts have very long hair.,false,false,false,false,true,false,true,false
-"If a chicken lays an egg, then the chicken existed before the egg.",true,false,true,false,true,false,false,false
-"Generally, winter coats are warm clothing.",false,false,false,false,false,false,true,true
-A fish can ride a bicycle.,false,false,false,false,true,false,false,true
-Snakes can juggle.,false,false,false,false,true,false,false,true
-"If you throw a wine glass against a wooden floor, it will probably shatter.",false,false,false,false,true,false,false,false
-Absolutely everyone likes blueberries.,false,false,false,false,false,false,false,true
-Ice water is colder than ice.,false,false,false,false,true,false,false,true
-Stabbing someone typically expresses love.,false,false,false,false,true,false,false,true
-"If a cup contains hot coffee, then the cup is presumably right side up.",false,false,false,true,true,false,false,false
-An adult can walk and chew gum at the same time.,false,false,true,false,true,false,false,false
-People like being complimented.,false,false,false,false,false,false,false,true
-You can stab someone with a wet noodle.,false,false,false,false,true,false,false,false
-Stoves are meant to be used in cooking food.,false,false,false,false,true,false,true,false
-A wax candle would work even if it had no wick.,false,false,false,false,true,false,false,false
-"If something is a free gift, you don't have to pay for it.",false,false,false,false,false,false,true,false
-You can use a cotton ball as a paperweight.,false,false,false,false,true,false,false,true
-Women typically put on makeup without a mirror.,false,false,false,false,true,false,false,false
-Refrigerators are used to keep things cool.,false,false,false,false,true,false,true,false
-A moth ball can be used as a volley ball in a pinch.,false,false,false,false,true,false,false,true
-You can see someone's smile even when they are wearing a surgical mask.,false,false,false,false,true,false,false,false
-A customer would like being offered free dessert.,false,false,true,false,false,false,true,false
-"Every cotton ball is a lightweight, relatively small object.",false,false,false,true,true,false,true,true
-You typically can't see what's inside of a sealed can.,false,false,false,true,true,false,false,false
-A few weeks is greater than a few minutes.,true,false,false,false,false,true,false,false
-Grandfather clocks are bigger than pocket watches.,false,false,false,true,false,false,true,true
-"When dining at a fast-food restaurant, you are usually seated before ordering food.",true,false,true,false,false,false,false,false
-"If you spill grape soda on white clothes, it usually won't stain them.",false,false,true,false,true,false,false,false
-"When Duke changed the tire on his car, he lifted the car with the jack after removing the old tire.",true,false,true,false,true,false,false,false
-Dolphins sleep in bedrooms.,false,true,false,false,true,false,true,false
-"Generally, people with athletic physiques are not overweight.",false,false,false,false,false,false,true,true
-Sand castles are almost always bigger than people .,false,false,false,true,true,false,true,true
-Being sick is usually unpleasant for people.,false,false,false,false,true,false,true,true
-"If Joy is on the first floor, and Rob is on the second floor, then Joy is above Rob.",false,true,false,true,false,true,false,false
-Bedroom dressers are typically used to store clothes.,false,false,false,false,false,false,true,false
-A human would not mind touching a burner while the stove is on.,true,true,true,false,true,false,false,false
-Styrofoam peanuts are often used to protect fragile objects during transport.,false,false,false,false,true,false,true,true
-Objects usually cannot fit inside anything that is smaller than they are.,false,false,false,true,false,false,false,false
-"When you encounter a bird, you expect to be able to see its heart.",false,false,false,false,true,false,false,false
-Pet food is not intended for human consumption.,false,false,false,false,false,false,true,true
-Viruses can't sing.,false,false,false,false,true,false,true,false
-Gloves are typically worn on feet.,false,false,false,true,false,false,true,false
-"Animal fur, feathers, and skin are usually not see through.",false,false,false,false,true,false,false,false
-"If someone is allergic to dairy, they shouldn't drink milk.",false,false,true,false,true,false,true,true
-The same region cannot have both a dry climate and a rainy climate at the same time.,true,true,false,true,false,false,false,true
-"If someone is capable of playing ice hockey, are they capable of ice skating.",false,false,false,false,false,false,true,false
-You are more likely to find a book in a library than in a tree.,false,false,false,true,false,false,true,true
-A stove burner that is on is usually too hot to touch.,false,true,false,false,true,false,true,true
-Chickens are typically found on the ground rather than in the air.,false,false,false,true,false,false,true,false
-Airplane pilots frequently fly planes.,false,false,false,false,false,false,true,false
-Cyanide is an ingredient in ice cream.,false,false,false,false,true,false,true,true
-Animals breathe without thinking about it.,false,false,true,false,true,false,true,false
-Surgeons can write.,false,false,false,false,true,false,true,true
-To become a doctor you have to received an advanced education.,true,false,true,false,false,false,true,false
-Newspapers contain news.,false,false,false,false,false,false,true,false
-The Atlantic ocean is wet.,false,false,false,false,true,false,true,true
-Most kitchens are not bathrooms.,false,false,false,false,false,false,false,true
-People often eat ceramic plates.,false,false,false,false,true,false,false,true
-You are likely to find a bathtub in a kitchen.,false,false,false,true,false,false,true,true
-Someone born without eyes could still drive a car.,false,false,false,false,true,false,false,false
-Hot sauce is bland.,false,false,false,false,false,false,true,false
-Glass window panes are usually transparent.,false,false,false,false,true,false,true,false
-Wood is often used in building structures.,false,false,false,false,true,false,true,true
-You can put a dream in your pocket.,false,false,false,true,true,false,true,false
-Pianos make a buzzing sound.,false,false,false,false,true,false,true,false
-An adult can walk and swim at the same time.,true,false,true,false,true,false,false,false
-A popsicle can catch a cold.,false,false,false,false,true,false,true,false
-Chocolate milk is white.,false,false,false,false,false,false,true,false
-You are likely to find a frying pan in a bathroom.,false,false,false,false,false,false,true,true
-Barack Obama was president of the United States in the year 1220.,true,true,false,false,false,false,true,false
-"London, England is located inside a suitcase.",false,false,false,true,true,false,true,false
-"If you have a buzz cut, you can put your hair in a pony tail to keep it out of your eyes.",false,false,false,false,true,false,true,false
-"In most buildings, the second floor is below the first floor.",false,false,false,true,false,true,false,false
-Cat food is probably on the menu at most restaurants.,false,false,false,false,true,false,false,true
-Most things without eyes don't cry.,false,false,false,false,true,false,true,true
-"If you want an athletic physique, you should probably try to significantly increase the amount of fat on your body.",false,false,false,false,false,false,true,false
-A cowboy hat won't shade your face from the sun.,false,false,false,false,true,false,true,false
-Viruses have mouths.,false,false,false,false,false,false,true,false
-Those not yet born cannot be senior executives.,false,false,false,false,false,false,true,true
-"If clothing item A is worn over clothing item B, then you do not put on A before putting on B.",true,false,true,true,false,false,false,false
-Cooked noodles are not rigid.,false,false,false,false,true,false,true,false
-The Atlantic Ocean is a body of water.,false,false,false,false,true,false,true,true
-Most doctors haven't gone to college.,false,false,false,false,false,false,true,true
-You have to decide to take a breath before you can do it.,true,false,true,false,true,false,false,false
-Mixing cream in coffee doesn't change its color.,false,false,false,true,true,false,false,false
-"If you are drinking beer, you are drinking something carbonated.",false,false,false,false,true,false,true,true
-Internal parts of opaque objects are not visible from the outside.,false,false,false,true,true,false,false,false
-"Phoenix, AZ currently has both a dry climate and a rainy climate.",false,true,false,false,true,false,false,true
-Most people are excited to learn they caught the flu on vacation.,true,false,true,false,false,false,true,true
-"To see what is on the other side of a glass window, you usually have to open it.",false,false,false,true,true,false,false,false
-A feeling of love is the opposite of a feeling of hate.,false,false,false,false,false,false,false,true
-People don't like things they find disgusting.,false,false,false,false,false,false,true,true
-Wearing gloves will help keep your feet from getting cold.,false,false,false,false,true,false,true,false
-"In a typical house, there are no rooms that have been designed for a particular purpose.",false,false,false,true,false,false,true,true
-Sue couldn't afford the free gift because it was too expensive.,false,false,false,false,false,false,true,false
-"When changing a tire, the tire is removed after the automobile is raised with a jack.",true,false,true,false,false,false,false,false
-Winter coats are for summer.,false,false,false,false,false,false,true,true
-No utensil is a spoon.,false,false,false,false,false,false,false,true
-Blind people cannot drive.,false,false,false,false,true,false,true,false
-Kitchen tools are intended to be used in preparing food or drinks.,false,false,true,false,false,false,true,true
-You don't expect ice rinks to be slippery.,false,false,false,false,true,false,false,false
-Every popsicle is frozen food.,false,false,false,false,true,false,true,true
-"If A creates B, then A must exist before B.",true,false,true,false,false,false,false,false
-Styrofoam peanuts are too light to be used as packaging material.,false,false,false,false,true,false,true,true
-Animal skin is frequently completely transparent.,false,false,false,false,true,false,false,false
-At fast food restaurants you typically order at a counter or a drive-through.,false,false,false,false,false,false,true,false
-No spicy thing is bland.,false,false,false,false,false,false,true,true
-Being complimented is pleasant.,false,false,false,false,false,false,false,true
-People who characteristically do something are more likely to do that sort of thing than other people.,false,false,false,false,false,false,true,false
-You light a candle by lighting the wax.,false,false,false,false,true,false,true,false
-180 seconds is greater than 3 weeks.,true,false,false,false,false,true,false,false
-Chickens are birds that often perch in trees.,false,false,false,false,true,false,true,true
-A pocket watch is roughly the size of a golf ball.,false,false,false,true,true,false,true,true
-Chewing gum is something humans can do.,false,false,false,false,true,false,true,false
-"If you are capable of performing an activity, you have the skills required for performing that activity.",false,false,false,false,false,false,true,false
-You expect to find a toilet in a kitchen.,false,false,false,false,false,false,false,true
-Carpenters can hammer a nail.,false,false,false,false,true,false,true,false
-Persons with advanced educations can write.,false,false,false,false,true,false,true,true
-You're likely to find a spider web across the door of a busy business.,false,false,false,true,false,false,true,true
-Walking can only be done by things that can move their legs.,false,false,false,false,true,false,true,false
-Walking on two legs is a type of swimming.,false,false,false,false,false,false,true,true
-There is no food that is liked by everyone.,false,false,false,false,false,false,false,true
-Drinking vessels can contain liquid.,false,false,false,true,true,false,true,false
-"If part of a written work contains some information, then the work itself contains that information.",false,false,false,true,false,false,false,true
-You can ship a book in a box that is smaller than the book is.,false,false,false,true,false,false,false,false
-Someone applying makeup typically wants to be able to see whatever they are putting makeup on.,false,false,true,false,false,false,true,false
-Actions that are hostile do not express a feeling of good will.,false,false,false,false,false,false,true,true
-"London, England is a city.",false,false,false,false,false,false,true,true
-You're likely to find silverware in the drawer of a bedroom dresser.,false,false,false,false,false,false,true,true
-Touching something that is too hot to touch causes pain.,false,false,true,false,true,false,true,false
-The temperature of liquid water is below freezing.,false,false,false,false,true,false,true,false
-Most TVs work without being plugged in.,false,false,false,false,true,false,false,false
-Objects are not usually found in places where they or their parts would melt.,false,false,false,true,true,false,true,false
-A bowling ball could be used as a volley ball in a pinch.,false,false,false,false,true,false,false,true
-You can't read a book using a flashlight during a power outage.,true,false,false,false,true,false,true,false
-"To graduate from a kind of school, you must attend that kind of school.",true,false,true,false,false,false,true,false
-Animals don't live where they can't survive for very long.,false,false,false,false,false,false,true,true
-Very few airplane pilots know what the controls in the cockpit do.,false,false,false,false,false,false,true,true
-A professional singer who lost their vocal cords could still do their job.,true,false,false,false,true,false,false,true
-Things that are toxic to humans are typically not ingredients in human food.,false,false,false,true,false,false,false,true
-You can use grape soda to rub a stain out of white clothes.,false,false,false,false,true,false,false,true
-Stoves cannot be used to generate heat.,false,false,false,false,true,false,false,true
-"If a body part is necessary for some activity, things that lack that part can't do that activity.",false,false,false,false,false,false,true,false
-"Most cotton balls are dense, heavy objects.",false,false,false,false,true,false,true,false
-When a stove burner is off it is usually too hot to touch.,false,true,false,false,true,false,false,false
-Sand castles are typically intended to house humans.,false,false,false,false,true,false,true,false
-"If a person is wearing a clothing item over the part of the body used to make a facial expression, then others' view of that expression is blocked.",false,false,false,true,true,false,false,false
-"To function as a paperweight, an object must be at least somewhat heavy.",false,false,false,false,true,false,true,true
-Aquatic organisms don't have enough legs to ride a bicycle.,false,false,false,false,true,false,true,true
-You can usually eat the materials used to construct buildings intended to shelter humans.,false,false,false,false,true,false,false,true
-An observer who is outside an opaque container cannot see something that is completely inside that container.,false,false,false,true,true,false,false,false
-Adult animals are typically older than juvenile animals.,false,false,false,false,false,false,true,true
-"If animals refuse to eat a kind of substance, they typically refuse to eat objects made of that kind of substance.",false,false,false,false,true,false,false,true
-Being served things for free typically makes customers happy.,false,false,true,false,false,false,false,true
-Milk is a type of dairy product.,false,false,false,false,false,false,true,true
-There are no devices that are designed to keep things cool.,false,false,false,false,true,false,true,true
-"Almost anything which is solid, flat, and lightweight can be used as a tray to carry items smaller than it.",false,false,false,true,true,false,true,true
-"If A can be stored inside B, then A is smaller than B.",false,false,false,true,false,false,false,false
-The sound a flying bee makes is the same as the sound a piano makes.,false,false,false,false,true,false,false,true
-A dream is not a physical object.,false,false,false,false,false,false,true,false
-Fish can breathe with gills.,false,false,false,false,true,false,true,false
-It is common to find books in libraries.,false,false,false,false,false,false,true,true
-Wood is never used in building homes.,false,false,false,false,false,false,false,true
-"If you throw a very fragile object against something as tough as wood, it will probably be damaged.",false,false,true,true,true,false,false,false
-The sound of a balloon popping never startles anyone.,false,false,false,false,true,false,false,false
-Devices for bathing are typically not found outside rooms designed for bathing.,false,false,false,true,false,false,false,true
-Most people like to injure themselves.,false,false,false,false,false,false,false,true
-An open container can only hold a liquid if it is right side up.,false,false,false,true,true,false,false,false
-Chocolate milk and regular milk are different colors.,false,false,false,false,false,false,false,true
-Rooms in buildings typically aren't underwater.,false,false,false,false,false,false,false,true
-Clothing items usually aren't edible by humans.,false,false,false,false,false,false,false,true
+"""If you have a buzz cut, you can put your hair in a pony tail to keep it out of your eyes.""",0,0,0,0,1,0,1,0
+"""In most buildings, the second floor is below the first floor.""",0,0,0,1,0,1,0,0
+"""Cat food is probably on the menu at most restaurants.""",0,0,0,0,1,0,0,1
+"""Most things without eyes don't cry.""",0,0,0,0,1,0,1,1
+"""If you want an athletic physique, you should probably try to significantly increase the amount of fat on your body.""",0,0,0,0,0,0,1,0
+"""A cowboy hat won't shade your face from the sun.""",0,0,0,0,1,0,1,0
+"""Viruses have mouths.""",0,0,0,0,0,0,1,0
+"""Those not yet born cannot be senior executives.""",0,0,0,0,0,0,1,1
+"""If clothing item A is worn over clothing item B, then you do not put on A before putting on B.""",1,0,1,1,0,0,0,0
+"""Cooked noodles are not rigid.""",0,0,0,0,1,0,1,0
+"""The Atlantic Ocean is a body of water.""",0,0,0,0,1,0,1,1
+"""Most doctors haven't gone to college.""",0,0,0,0,0,0,1,1
+"""You have to decide to take a breath before you can do it.""",1,0,1,0,1,0,0,0
+"""Mixing cream in coffee doesn't change its color.""",0,0,0,1,1,0,0,0
+"""If you are drinking beer, you are drinking something carbonated.""",0,0,0,0,1,0,1,1
+"""Internal parts of opaque objects are not visible from the outside.""",0,0,0,1,1,0,0,0
+"""Phoenix, AZ currently has both a dry climate and a rainy climate.""",0,1,0,0,1,0,0,1
+"""Most people are excited to learn they caught the flu on vacation.""",1,0,1,0,0,0,1,1
+"""To see what is on the other side of a glass window, you usually have to open it.""",0,0,0,1,1,0,0,0
+"""A feeling of love is the opposite of a feeling of hate.""",0,0,0,0,0,0,0,1
+"""People don't like things they find disgusting.""",0,0,0,0,0,0,1,1
+"""Wearing gloves will help keep your feet from getting cold.""",0,0,0,0,1,0,1,0
+"""In a typical house, there are no rooms that have been designed for a particular purpose.""",0,0,0,1,0,0,1,1
+"""Sue couldn't afford the free gift because it was too expensive.""",0,0,0,0,0,0,1,0
+"""When changing a tire, the tire is removed after the automobile is raised with a jack.""",1,0,1,0,0,0,0,0
+"""Winter coats are for summer.""",0,0,0,0,0,0,1,1
+"""No utensil is a spoon.""",0,0,0,0,0,0,0,1
+"""Blind people cannot drive.""",0,0,0,0,1,0,1,0
+"""Kitchen tools are intended to be used in preparing food or drinks.""",0,0,1,0,0,0,1,1
+"""You don't expect ice rinks to be slippery.""",0,0,0,0,1,0,0,0
+"""Every popsicle is frozen food.""",0,0,0,0,1,0,1,1
+"""If A creates B, then A must exist before B.""",1,0,1,0,0,0,0,0
+"""Styrofoam peanuts are too light to be used as packaging material.""",0,0,0,0,1,0,1,1
+"""Animal skin is frequently completely transparent.""",0,0,0,0,1,0,0,0
+"""At fast food restaurants you typically order at a counter or a drive-through.""",0,0,0,0,0,0,1,0
+"""No spicy thing is bland.""",0,0,0,0,0,0,1,1
+"""Being complimented is pleasant.""",0,0,0,0,0,0,0,1
+"""People who characteristically do something are more likely to do that sort of thing than other people.""",0,0,0,0,0,0,1,0
+"""You light a candle by lighting the wax.""",0,0,0,0,1,0,1,0
+"""180 seconds is greater than 3 weeks.""",1,0,0,0,0,1,0,0
+"""Chickens are birds that often perch in trees.""",0,0,0,0,1,0,1,1
+"""A pocket watch is roughly the size of a golf ball.""",0,0,0,1,1,0,1,1
+"""Chewing gum is something humans can do.""",0,0,0,0,1,0,1,0
+"""If you are capable of performing an activity, you have the skills required for performing that activity.""",0,0,0,0,0,0,1,0
+"""You expect to find a toilet in a kitchen.""",0,0,0,0,0,0,0,1
+"""Carpenters can hammer a nail.""",0,0,0,0,1,0,1,0
+"""Persons with advanced educations can write.""",0,0,0,0,1,0,1,1
+"""You're likely to find a spider web across the door of a busy business.""",0,0,0,1,0,0,1,1
+"""Walking can only be done by things that can move their legs.""",0,0,0,0,1,0,1,0
+"""Walking on two legs is a type of swimming.""",0,0,0,0,0,0,1,1
+"""There is no food that is liked by everyone.""",0,0,0,0,0,0,0,1
+"""Drinking vessels can contain liquid.""",0,0,0,1,1,0,1,0
+"""If part of a written work contains some information, then the work itself contains that information.""",0,0,0,1,0,0,0,1
+"""You can ship a book in a box that is smaller than the book is.""",0,0,0,1,0,0,0,0
+"""Someone applying makeup typically wants to be able to see whatever they are putting makeup on.""",0,0,1,0,0,0,1,0
+"""Actions that are hostile do not express a feeling of good will.""",0,0,0,0,0,0,1,1
+"""London, England is a city.""",0,0,0,0,0,0,1,1
+"""You're likely to find silverware in the drawer of a bedroom dresser.""",0,0,0,0,0,0,1,1
+"""Touching something that is too hot to touch causes pain.""",0,0,1,0,1,0,1,0
+"""The temperature of liquid water is below freezing.""",0,0,0,0,1,0,1,0
+"""Most TVs work without being plugged in.""",0,0,0,0,1,0,0,0
+"""Objects are not usually found in places where they or their parts would melt.""",0,0,0,1,1,0,1,0
+"""A bowling ball could be used as a volley ball in a pinch.""",0,0,0,0,1,0,0,1
+"""You can't read a book using a flashlight during a power outage.""",1,0,0,0,1,0,1,0
+"""To graduate from a kind of school, you must attend that kind of school.""",1,0,1,0,0,0,1,0
+"""Animals don't live where they can't survive for very long.""",0,0,0,0,0,0,1,1
+"""Very few airplane pilots know what the controls in the cockpit do.""",0,0,0,0,0,0,1,1
+"""A professional singer who lost their vocal cords could still do their job.""",1,0,0,0,1,0,0,1
+"""Things that are toxic to humans are typically not ingredients in human food.""",0,0,0,1,0,0,0,1
+"""You can use grape soda to rub a stain out of white clothes.""",0,0,0,0,1,0,0,1
+"""Stoves cannot be used to generate heat.""",0,0,0,0,1,0,0,1
+"""If a body part is necessary for some activity, things that lack that part can't do that activity.""",0,0,0,0,0,0,1,0
+"""Most cotton balls are dense, heavy objects.""",0,0,0,0,1,0,1,0
+"""When a stove burner is off it is usually too hot to touch.""",0,1,0,0,1,0,0,0
+"""Sand castles are typically intended to house humans.""",0,0,0,0,1,0,1,0
+"""If a person is wearing a clothing item over the part of the body used to make a facial expression, then others' view of that expression is blocked.""",0,0,0,1,1,0,0,0
+"""To function as a paperweight, an object must be at least somewhat heavy.""",0,0,0,0,1,0,1,1
+"""Aquatic organisms don't have enough legs to ride a bicycle.""",0,0,0,0,1,0,1,1
+"""You can usually eat the materials used to construct buildings intended to shelter humans.""",0,0,0,0,1,0,0,1
+"""An observer who is outside an opaque container cannot see something that is completely inside that container.""",0,0,0,1,1,0,0,0
+"""Adult animals are typically older than juvenile animals.""",0,0,0,0,0,0,1,1
+"""If animals refuse to eat a kind of substance, they typically refuse to eat objects made of that kind of substance.""",0,0,0,0,1,0,0,1
+"""Being served things for free typically makes customers happy.""",0,0,1,0,0,0,0,1
+"""Milk is a type of dairy product.""",0,0,0,0,0,0,1,1
+"""There are no devices that are designed to keep things cool.""",0,0,0,0,1,0,1,1
+"""Almost anything which is solid, flat, and lightweight can be used as a tray to carry items smaller than it.""",0,0,0,1,1,0,1,1
+"""If A can be stored inside B, then A is smaller than B.""",0,0,0,1,0,0,0,0
+"""The sound a flying bee makes is the same as the sound a piano makes.""",0,0,0,0,1,0,0,1
+"""A dream is not a physical object.""",0,0,0,0,0,0,1,0
+"""Fish can breathe with gills.""",0,0,0,0,1,0,1,0
+"""It is common to find books in libraries.""",0,0,0,0,0,0,1,1
+"""Wood is never used in building homes.""",0,0,0,0,0,0,0,1
+"""If you throw a very fragile object against something as tough as wood, it will probably be damaged.""",0,0,1,1,1,0,0,0
+"""The sound of a balloon popping never startles anyone.""",0,0,0,0,1,0,0,0
+"""Devices for bathing are typically not found outside rooms designed for bathing.""",0,0,0,1,0,0,0,1
+"""Most people like to injure themselves.""",0,0,0,0,0,0,0,1
+"""An open container can only hold a liquid if it is right side up.""",0,0,0,1,1,0,0,0
+"""Chocolate milk and regular milk are different colors.""",0,0,0,0,0,0,0,1
+"""Rooms in buildings typically aren't underwater.""",0,0,0,0,0,0,0,1
+"""Clothing items usually aren't edible by humans.""",0,0,0,0,0,0,0,1

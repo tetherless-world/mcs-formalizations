@@ -41,7 +41,7 @@ class CategorizationPipeline(_Pipeline):
         )
 
         formatted_id = (
-            f"{self.ID}_{categorizer_name}_{month_num}-{day_num}-{year_num}_preprocessed"
+            f"{self.ID}_{categorizer_name}_{month_num}-{day_num}-{year_num}_with_stopwords"
             if preprocess
             else f"{self.ID}_{categorizer_name}_{month_num}-{day_num}-{year_num}_raw"
         )

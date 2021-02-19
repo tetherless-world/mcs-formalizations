@@ -23,6 +23,6 @@ def text_process(text):
     nopunc_or_nums_or_stops = [
         word.lower()
         for word in nopunc_or_nums.split()
-        if word not in stopwords.words("english")
+        # if word not in stopwords.words("english")
     ]
     return " ".join([stemmer.lemmatize(word) for word in nopunc_or_nums_or_stops])

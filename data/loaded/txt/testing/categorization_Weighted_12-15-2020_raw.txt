@@ -1,0 +1,70 @@
+__label__Space In most buildings, the second floor is below the first floor.
+__label__Sets Most things without eyes don't cry.
+__label__Events If you want an athletic physique, you should probably try to significantly increase the amount of fat on your body.
+__label__Physical-Entities __label__Classes-and-instances A cowboy hat won't shade your face from the sun.
+__label__Classes-and-instances Viruses have mouths.
+__label__Time __label__Events __label__Classes-and-instances Those not yet born cannot be senior executives.
+__label__Time __label__Events If clothing item A is worn over clothing item B, then you do not put on A before putting on B.
+__label__Classes-and-instances The Atlantic Ocean is a body of water.
+__label__Sets Most doctors haven't gone to college.
+__label__Events You have to decide to take a breath before you can do it.
+__label__Physical-Entities Mixing cream in coffee doesn't change its color.
+__label__Physical-Entities __label__Classes-and-instances If you are drinking beer, you are drinking something carbonated.
+__label__Space __label__Physical-Entities Internal parts of opaque objects are not visible from the outside.
+__label__World-states Phoenix, AZ currently has both a dry climate and a rainy climate.
+__label__Events __label__Sets Most people are excited to learn they caught the flu on vacation.
+__label__Physical-Entities To see what is on the other side of a glass window, you usually have to open it.
+__label__Sets A feeling of love is the opposite of a feeling of hate.
+__label__Classes-and-instances Wearing gloves will help keep your feet from getting cold.
+__label__Classes-and-instances In a typical house, there are no rooms that have been designed for a particular purpose.
+__label__Events When changing a tire, the tire is removed after the automobile is raised with a jack.
+__label__Classes-and-instances Winter coats are for summer.
+__label__Sets No utensil is a spoon.
+__label__Physical-Entities You don't expect ice rinks to be slippery.
+__label__Classes-and-instances Every popsicle is frozen food.
+__label__Time __label__Events If A creates B, then A must exist before B.
+__label__Physical-Entities __label__Classes-and-instances Styrofoam peanuts are too light to be used as packaging material.
+__label__Physical-Entities Animal skin is frequently completely transparent.
+__label__Events At fast food restaurants you typically order at a counter or a drive-through.
+__label__Classes-and-instances __label__Sets No spicy thing is bland.
+__label__Events You light a candle by lighting the wax.
+__label__Time __label__Values-and-quantities 180 seconds is greater than 3 weeks.
+__label__Classes-and-instances __label__Sets Chickens are birds that often perch in trees.
+__label__Space __label__Physical-Entities A pocket watch is roughly the size of a golf ball.
+__label__Classes-and-instances Chewing gum is something humans can do.
+__label__Classes-and-instances You expect to find a toilet in a kitchen.
+__label__Classes-and-instances Carpenters can hammer a nail.
+__label__Classes-and-instances You're likely to find a spider web across the door of a busy business.
+__label__Physical-Entities __label__Classes-and-instances Walking can only be done by things that can move their legs.
+__label__Classes-and-instances Walking on two legs is a type of swimming.
+__label__Physical-Entities __label__Classes-and-instances Drinking vessels can contain liquid.
+__label__Sets If part of a written work contains some information, then the work itself contains that information.
+__label__Space You can ship a book in a box that is smaller than the book is.
+__label__Events Someone applying makeup typically wants to be able to see whatever they are putting makeup on.
+__label__Classes-and-instances Actions that are hostile do not express a feeling of good will.
+__label__Classes-and-instances London, England is a city.
+__label__Classes-and-instances You're likely to find silverware in the drawer of a bedroom dresser.
+__label__Physical-Entities The temperature of liquid water is below freezing.
+__label__Physical-Entities Most TVs work without being plugged in.
+__label__Classes-and-instances Objects are not usually found in places where they or their parts would melt.
+__label__Physical-Entities A bowling ball could be used as a volley ball in a pinch.
+__label__Time __label__Events You can't read a book using a flashlight during a power outage.
+__label__Events To graduate from a kind of school, you must attend that kind of school.
+__label__Physical-Entities You can use grape soda to rub a stain out of white clothes.
+__label__Classes-and-instances Most cotton balls are dense, heavy objects.
+__label__Physical-Entities When a stove burner is off it is usually too hot to touch.
+__label__Classes-and-instances Aquatic organisms don't have enough legs to ride a bicycle.
+__label__Physical-Entities You can usually eat the materials used to construct buildings intended to shelter humans.
+__label__Space __label__Physical-Entities An observer who is outside an opaque container cannot see something that is completely inside that container.
+__label__Events Being served things for free typically makes customers happy.
+__label__Classes-and-instances Milk is a type of dairy product.
+__label__Sets There are no devices that are designed to keep things cool.
+__label__Space __label__Physical-Entities Almost anything which is solid, flat, and lightweight can be used as a tray to carry items smaller than it.
+__label__Space If A can be stored inside B, then A is smaller than B.
+__label__Classes-and-instances The sound a flying bee makes is the same as the sound a piano makes.
+__label__Classes-and-instances A dream is not a physical object.
+__label__Classes-and-instances Fish can breathe with gills.
+__label__Events __label__Physical-Entities If you throw a very fragile object against something as tough as wood, it will probably be damaged.
+__label__Space Devices for bathing are typically not found outside rooms designed for bathing.
+__label__Sets Most people like to injure themselves.
+__label__Space __label__Physical-Entities An open container can only hold a liquid if it is right side up.

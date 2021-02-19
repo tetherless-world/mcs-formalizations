@@ -1,0 +1,54 @@
+__label__Events the dead walk
+__label__Time __label__World-states __label__Events __label__Physical-Entities __label__Classes-and-instances you usually cant watch tv power outage
+__label__Events if joy bachelor degree probably went college
+__label__Classes-and-instances __label__Sets pilot likely farmer fly airplane
+__label__Physical-Entities __label__Classes-and-instances __label__Sets a cutting board used tray
+__label__Events __label__Physical-Entities __label__Classes-and-instances a customer would like served glass water cockroach
+__label__World-states __label__Events __label__Physical-Entities flashlight work without plugged
+__label__Space __label__Physical-Entities __label__Classes-and-instances a parking garage larger automobile
+__label__Classes-and-instances __label__Sets every spoon utensil
+__label__Physical-Entities __label__Sets building designed provide shelter human almost never edible
+__label__Events __label__Space __label__Physical-Entities __label__Classes-and-instances carpenter find hammer useful driving object object
+__label__Events the country argentina cry
+__label__Events you could play ice hockey outside summer
+__label__Events __label__Physical-Entities __label__Classes-and-instances you put shoe sock
+__label__Physical-Entities __label__Classes-and-instances __label__Sets a cap brim provides lot shade bright sun
+__label__Physical-Entities __label__Classes-and-instances __label__Sets the front door busy business open close frequently
+__label__Physical-Entities __label__Classes-and-instances __label__Sets the sound balloon popping loud
+__label__Classes-and-instances __label__Sets you serve orange juice coffee mug
+__label__Classes-and-instances __label__Sets coffee mixed cream black
+__label__Events cuddling typically expression hatred
+__label__Values-and-quantities __label__Classes-and-instances __label__Sets a puppy older adult dog
+__label__Classes-and-instances __label__Sets people buzz cut long hair
+__label__Time __label__Events __label__Classes-and-instances __label__Sets if chicken lay egg chicken existed egg
+__label__Classes-and-instances __label__Sets generally winter coat warm clothing
+__label__Classes-and-instances __label__Sets a fish ride bicycle
+__label__Classes-and-instances __label__Sets snake juggle
+__label__Events __label__Physical-Entities if throw wine glass wooden floor probably shatter
+__label__Classes-and-instances __label__Sets absolutely everyone like blueberry
+__label__Space if cup contains hot coffee cup presumably right side
+__label__Classes-and-instances __label__Sets stove meant used cooking food
+__label__Classes-and-instances __label__Sets a wax candle would work even wick
+__label__Classes-and-instances if something free gift dont pay
+__label__Classes-and-instances __label__Sets you use cotton ball paperweight
+__label__Events __label__Classes-and-instances __label__Sets woman typically put makeup without mirror
+__label__Events __label__Physical-Entities __label__Classes-and-instances __label__Sets you see someone smile even wearing surgical mask
+__label__Physical-Entities __label__Classes-and-instances __label__Sets every cotton ball lightweight relatively small object
+__label__Values-and-quantities a week greater minute
+__label__Physical-Entities __label__Values-and-quantities __label__Classes-and-instances grandfather clock bigger pocket watch
+__label__Time __label__Events when dining fastfood restaurant usually seated ordering food
+__label__Events __label__Physical-Entities if spill grape soda white clothes usually wont stain
+__label__Events __label__Physical-Entities __label__Classes-and-instances when duke changed tire car lifted car jack removing old tire
+__label__World-states being sick usually unpleasant people
+__label__Space __label__Physical-Entities __label__Classes-and-instances __label__Sets if joy first floor rob second floor joy rob
+__label__Physical-Entities __label__Classes-and-instances __label__Sets bedroom dresser typically used store clothes
+__label__World-states __label__Events __label__Physical-Entities a human would mind touching burner stove
+__label__Events __label__Physical-Entities __label__Classes-and-instances __label__Sets styrofoam peanut often used protect fragile object transport
+__label__Events when encounter bird expect able see heart
+__label__Classes-and-instances __label__Sets newspaper contain news
+__label__Physical-Entities __label__Classes-and-instances __label__Sets most kitchen bathroom
+__label__Physical-Entities __label__Classes-and-instances people often eat ceramic plate
+__label__Space __label__Physical-Entities __label__Classes-and-instances __label__Sets you likely find bathtub kitchen
+__label__Physical-Entities __label__Classes-and-instances __label__Sets wood often used building structure
+__label__Time barack obama president united state year
+__label__Space __label__Physical-Entities __label__Classes-and-instances __label__Sets london england located inside suitcase
