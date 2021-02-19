@@ -1,4 +1,97 @@
 sentence,Time,World states,Events,Space,Physical Entities,Values and quantities,Classes and instances,Sets
+"""Horses live in the sea.""",0,1,0,0,1,0,1,0
+"""The dead can walk.""",0,1,0,0,1,0,1,0
+"""You usually can't watch TV during a power outage.""",0,1,0,0,0,0,0,0
+"""If Joy has a bachelor's degree, then she probably went to college.""",1,1,1,0,1,0,0,0
+"""Pilots are more likely than farmers to fly airplanes.""",0,0,0,0,0,0,1,0
+"""A cutting board can be used as a tray.""",0,0,0,0,1,0,0,1
+"""A customer would like being served a glass of water with a cockroach in it.""",0,1,1,0,1,0,0,0
+"""Flashlights work without being plugged in.""",0,0,0,0,1,0,1,0
+"""A parking garage is larger than an automobile.""",0,0,0,1,1,0,1,0
+"""Vocal cords are necessary in order to sing.""",0,0,0,0,0,0,1,0
+"""Every spoon is a utensil.""",0,0,0,0,1,0,1,0
+"""Buildings designed to provide shelter for humans are almost never edible.""",0,0,0,0,1,0,1,0
+"""You can't drown a fish in water.""",0,0,0,0,1,0,0,0
+"""Carpenters find hammers useful for driving objects into other objects.""",0,0,0,0,1,0,1,0
+"""The country Argentina can cry.""",0,1,0,0,0,0,0,0
+"""Wool scarves are often salad ingredients.""",0,0,0,0,1,0,1,0
+"""Ice rinks are made primarily of ice.""",0,0,0,0,1,0,0,0
+"""Kitchens are typically rooms dedicated to preparing food.""",0,0,0,0,0,0,1,0
+"""You could play ice hockey outside in the summer.""",1,1,0,0,0,0,0,0
+"""Beer does not contain fizz or bubbles.""",0,0,0,0,1,0,0,0
+"""You put shoes on before socks.""",1,0,0,0,0,0,0,0
+"""A cap with no brim provides lots of shade from the bright sun.""",0,0,0,0,1,0,0,0
+"""The front doors of busy businesses open and close frequently.""",0,1,1,0,0,0,0,0
+"""The sound of a balloon popping can be loud.""",0,1,1,0,0,0,0,0
+"""You can serve orange juice in a coffee mug.""",0,0,0,1,1,0,0,1
+"""Coffee mixed with cream is black.""",0,0,0,0,1,0,0,0
+"""Cuddling is typically an expression of hatred.""",0,0,0,0,0,0,1,0
+"""A puppy is older than an adult dog.""",1,0,0,0,1,0,0,0
+"""People with buzz cuts have very long hair.""",0,0,0,0,1,0,1,1
+"""If a chicken lays an egg, then the chicken existed before the egg.""",1,0,1,0,1,0,0,0
+"""Generally, winter coats are warm clothing.""",0,0,0,0,1,0,1,1
+"""A fish can ride a bicycle.""",0,0,0,0,1,0,0,0
+"""Snakes can juggle.""",0,0,0,0,1,0,0,0
+"""If you throw a wine glass against a wooden floor, it will probably shatter.""",0,0,0,0,1,0,1,0
+"""Absolutely everyone likes blueberries.""",0,0,0,0,0,0,0,1
+"""Ice water is colder than ice.""",0,0,0,0,1,0,1,1
+"""If a cup contains hot coffee, then the cup is presumably right side up.""",0,0,0,1,1,0,0,0
+"""An adult can walk and chew gum at the same time.""",1,0,0,0,0,0,1,0
+"""People like being complimented.""",0,0,0,0,0,0,1,1
+"""You can stab someone with a wet noodle.""",0,0,1,0,0,0,0,1
+"""Stoves are meant to be used in cooking food.""",0,0,0,0,1,0,1,0
+"""A wax candle would work even if it had no wick.""",0,0,0,0,1,0,0,0
+"""You can use a cotton ball as a paperweight.""",0,0,0,0,1,0,0,1
+"""Women typically put on makeup without a mirror.""",0,0,0,0,0,0,0,1
+"""Refrigerators are used to keep things cool.""",0,0,0,0,1,0,0,0
+"""A moth ball can be used as a volley ball in a pinch.""",0,0,0,1,1,0,1,1
+"""A customer would like being offered free dessert.""",0,0,0,0,0,0,0,1
+"""Every cotton ball is a lightweight, relatively small object.""",0,0,0,1,1,0,1,0
+"""You typically can't see what's inside of a sealed can.""",0,0,0,1,1,0,1,0
+"""A few weeks is greater than a few minutes.""",1,0,0,0,0,1,1,1
+"""Grandfather clocks are bigger than pocket watches.""",0,0,0,1,1,0,0,1
+"""When dining at a fast-food restaurant, you are usually seated before ordering food.""",0,0,1,0,0,0,0,0
+"""When Duke changed the tire on his car, he lifted the car with the jack after removing the old tire.""",1,0,1,0,0,0,0,0
+"""Dolphins sleep in bedrooms.""",0,0,0,1,0,0,0,0
+"""Generally, people with athletic physiques are not overweight.""",0,1,0,0,0,0,1,1
+"""Sand castles are almost always bigger than people .""",0,0,0,1,1,0,1,0
+"""Being sick is usually unpleasant for people.""",0,0,1,0,0,0,0,0
+"""If Joy is on the first floor, and Rob is on the second floor, then Joy is above Rob.""",0,0,0,1,0,0,0,0
+"""Bedroom dressers are typically used to store clothes.""",0,0,0,1,1,0,1,1
+"""A human would not mind touching a burner while the stove is on.""",1,0,1,0,0,0,0,0
+"""Styrofoam peanuts are often used to protect fragile objects during transport.""",0,0,0,0,1,0,1,0
+"""Objects usually cannot fit inside anything that is smaller than they are.""",0,0,0,1,0,0,0,1
+"""When you encounter a bird, you expect to be able to see its heart.""",1,1,1,0,0,0,0,0
+"""Pet food is not intended for human consumption.""",0,0,0,0,0,0,1,0
+"""Viruses can't sing.""",0,0,0,0,0,0,1,0
+"""Gloves are typically worn on feet.""",0,1,0,0,1,0,1,1
+"""Animal fur, feathers, and skin are usually not see through.""",0,0,0,0,0,0,1,1
+"""If someone is allergic to dairy, they shouldn't drink milk.""",0,0,0,0,0,0,0,1
+"""The same region cannot have both a dry climate and a rainy climate at the same time.""",1,1,0,1,0,0,0,1
+"""If someone is capable of playing ice hockey, are they capable of ice skating.""",0,0,0,0,0,0,0,1
+"""You are more likely to find a book in a library than in a tree.""",0,0,0,1,1,0,0,1
+"""A stove burner that is on is usually too hot to touch.""",0,0,0,0,0,0,0,1
+"""Chickens are typically found on the ground rather than in the air.""",0,0,0,1,0,0,1,1
+"""Airplane pilots frequently fly planes.""",1,0,1,0,0,0,1,1
+"""Cyanide is an ingredient in ice cream.""",0,0,0,0,1,0,0,0
+"""Surgeons can write.""",0,0,0,0,0,0,1,0
+"""To become a doctor you have to received an advanced education.""",0,0,1,0,0,0,1,0
+"""Newspapers contain news.""",0,0,0,1,1,0,1,0
+"""The Atlantic ocean is wet.""",0,0,0,1,1,0,1,0
+"""Most kitchens are not bathrooms.""",0,0,0,0,0,0,1,1
+"""You are likely to find a bathtub in a kitchen.""",0,0,0,1,0,0,1,1
+"""Someone born without eyes could still drive a car.""",0,0,0,0,0,0,1,1
+"""Hot sauce is bland.""",0,0,0,0,0,0,1,0
+"""Glass window panes are usually transparent.""",0,0,0,0,0,0,1,1
+"""Wood is often used in building structures.""",0,0,0,1,1,0,1,1
+"""You can put a dream in your pocket.""",0,0,0,1,0,0,0,0
+"""Pianos make a buzzing sound.""",0,0,0,0,1,0,1,0
+"""An adult can walk and swim at the same time.""",1,0,0,0,0,0,1,0
+"""A popsicle can catch a cold.""",0,0,0,0,0,0,1,0
+"""Chocolate milk is white.""",0,0,0,0,1,0,1,0
+"""You are likely to find a frying pan in a bathroom.""",0,0,0,1,0,0,0,0
+"""Barack Obama was president of the United States in the year 1220.""",1,1,1,0,0,0,0,0
+"""London, England is located inside a suitcase.""",0,0,0,1,0,0,0,0
 """If you have a buzz cut, you can put your hair in a pony tail to keep it out of your eyes.""",0,0,0,0,0,0,0,1
 """In most buildings, the second floor is below the first floor.""",0,0,0,1,0,0,0,0
 """Cat food is probably on the menu at most restaurants.""",0,0,0,0,0,0,1,1

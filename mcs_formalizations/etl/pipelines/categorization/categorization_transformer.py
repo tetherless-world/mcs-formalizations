@@ -39,7 +39,7 @@ class CategorizationTransformer(_Transformer):
         """
         return (
             self._pipeline_data_dir_path
-            / f"{metadata.categorizer_name}_Categorization_{metadata.month_num}-{metadata.day_num}-{metadata.year_num}_B.csv"
+            / f"{metadata.categorizer_name}_Categorization_{metadata.month_num}-{metadata.day_num}-{metadata.year_num}.csv"
         )
 
     def clean_question(self, *, question: str, preprocess: bool):
