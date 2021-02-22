@@ -71,5 +71,5 @@ class MeanVectorExtractor(_Extractor):
         return {
             "sentence_vecs": sentence_vecs,
             "labels": labels,
-            "file_name": self.__file_path.split("//")[-1],
+            "file_name": str(self.__file_path).split("//")[-1],
         }

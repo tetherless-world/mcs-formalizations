@@ -39,6 +39,11 @@ class CsvOutputFileLoader(_Loader):
 
         file_existed = os.path.isfile(file_path)
 
+        open_arg = "w"
+
+        if file_existed:
+            open_arg = "a"
+
         header_row = [
             "classifier_type",
             "parameters",
@@ -47,7 +52,7 @@ class CsvOutputFileLoader(_Loader):
             "balanced_accuracy",
         ]
 
-        with open(file_path, "a") as file_:
+        with open(file_path, open_arg) as file_:
 
             writer = csv.writer(file_)
 
