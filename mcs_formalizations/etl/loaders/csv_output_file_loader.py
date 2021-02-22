@@ -39,10 +39,14 @@ class CsvOutputFileLoader(_Loader):
 
         file_existed = os.path.exists(file_path)
 
+        print(file_existed)
+
         open_arg = "w"
 
         if file_existed:
             open_arg = "a"
+
+        print(open_arg)
 
         header_row = [
             "classifier_type",
