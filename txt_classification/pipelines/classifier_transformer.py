@@ -52,9 +52,9 @@ class ClassifierTransformer(_Transformer):
             sentence_vecs, labels, test_size=0.5, random_state=42
         )  # split the data into train and test (features (X) and labels (Y))
 
-        clf = self._classifier(
-            **self._parameters
-        )  # create a randomforest classifier object
+        clf = getattr(
+            self._classifier, **self._parameters
+        )()  # create a randomforest classifier object
 
         clf.fit(X_train, y_train)  # train the model with the training data
 
