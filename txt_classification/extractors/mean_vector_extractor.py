@@ -62,7 +62,7 @@ class MeanVectorExtractor(_Extractor):
         if not self.__file_path.is_file():
             raise ValueError(str(self.__file_path) + " does not exist")
 
-        model = fasttext.load_model(CLASSIFICATION_DIR_PATH / "models/wiki.en.bin")
+        model = fasttext.load_model(str(CLASSIFICATION_DIR_PATH / "models/wiki.en.bin"))
 
         with open(self.__file_path, newline="") as csvfile:
 
