@@ -10,6 +10,7 @@ from txt_classification.classifiers import Classifiers
 
 from txt_classification.extractors.mean_vector_extractor import MeanVectorExtractor
 from txt_classification.pipelines.classifier_transformer import ClassifierTransformer
+from mcs_formalizations.etl.loaders.csv_output_file_loader import CsvOutputFileLoader
 
 
 class ClassifierPipeline(_Pipeline):
@@ -21,6 +22,7 @@ class ClassifierPipeline(_Pipeline):
         annotation_file_name: str,
         classifier_type: Classifiers,
         parameters: Dict,
+        loader: CsvOutputFileLoader,
         data_dir_path: Path = DATA_DIR_PATH,
         **kwds
     ):
@@ -37,6 +39,7 @@ class ClassifierPipeline(_Pipeline):
                 data_dir_path=data_dir_path,
                 **kwds,
             ),
+            loader=CsvOutputFileLoader(),
             data_dir_path=data_dir_path,
             **kwds,
         )
