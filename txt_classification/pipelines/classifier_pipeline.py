@@ -22,7 +22,6 @@ class ClassifierPipeline(_Pipeline):
         annotation_file_name: str,
         classifier_type: Classifiers,
         parameters: Dict,
-        loader: CsvOutputFileLoader,
         data_dir_path: Path = DATA_DIR_PATH,
         **kwds
     ):
