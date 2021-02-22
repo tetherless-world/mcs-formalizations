@@ -30,6 +30,7 @@ class ClassifierTransformer(_Transformer):
         *,
         pipeline_id: str,
         classifier: Classifiers,
+        parameters: Dict,
         data_dir_path: Path = DATA_DIR_PATH,
         **kwds,
     ):
@@ -37,6 +38,7 @@ class ClassifierTransformer(_Transformer):
             self, pipeline_id=pipeline_id, data_dir_path=data_dir_path, **kwds
         )
         self._classifier = classifier
+        self._parameters = parameters
 
     def transform(
         self,
@@ -50,7 +52,9 @@ class ClassifierTransformer(_Transformer):
             sentence_vecs, labels, test_size=0.5, random_state=42
         )  # split the data into train and test (features (X) and labels (Y))
 
-        clf = self._classifier(**kwds)  # create a randomforest classifier object
+        clf = self._classifier(
+            **self._parameters
+        )  # create a randomforest classifier object
 
         clf.fit(X_train, y_train)  # train the model with the training data
 
@@ -58,7 +62,7 @@ class ClassifierTransformer(_Transformer):
 
         yield ClassificationResults(
             classifier_type=self._classifier,
-            parameters=kwds,
+            parameters=self._parameters,
             file_name=file_name,
             accuracy=metrics.accuracy_score(y_test, y_pred),
             balanced_accuracy=metrics.balanced_accuracy_score(y_test, y_pred),

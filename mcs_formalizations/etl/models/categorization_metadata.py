@@ -1,6 +1,8 @@
 from dataclasses import dataclass
 from dataclasses_json import LetterCase, dataclass_json
 
+from typing import Optional
+
 from mcs_formalizations.etl._model import _Model
 
 
@@ -13,3 +15,4 @@ class CategorizationMetadata:
     month_num: int
     day_num: int
     year_num: int
+    preprocessing: Optional[str] = None
