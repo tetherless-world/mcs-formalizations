@@ -38,7 +38,7 @@ class ClassifierPipeline(_Pipeline):
                 data_dir_path=data_dir_path,
                 **kwds,
             ),
-            loader=CsvOutputFileLoader(),
+            loader=CsvOutputFileLoader(pipeline_id=self.ID),
             data_dir_path=data_dir_path,
             **kwds,
         )
