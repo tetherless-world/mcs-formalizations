@@ -4,6 +4,4 @@ ROOT_DIR_PATH = Path(__file__).parent.parent.absolute()
 
 DATA_DIR_PATH = ROOT_DIR_PATH / "data"
 
-# TEST_DATA_DIR_PATH = ROOT_DIR_PATH / "test_data"
-
-# TEMPLATE_DIR_PATH = ROOT_DIR_PATH / "mcs_formalizations" / "cli" / "templates"
+CLASSIFICATION_DIR_PATH = ROOT_DIR_PATH / "txt_classification"

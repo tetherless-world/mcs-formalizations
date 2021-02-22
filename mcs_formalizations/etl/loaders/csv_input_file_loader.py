@@ -13,7 +13,7 @@ from mcs_formalizations.namespace import bind_namespaces
 from mcs_formalizations.etl.models.categorization_sample import CategorizationSample
 
 
-class CsvFileLoader(_Loader):
+class CsvInputFileLoader(_Loader):
     def __init__(
         self,
         *,
@@ -35,7 +35,7 @@ class CsvFileLoader(_Loader):
                 "csv",
             ]
             file_name = ".".join(file_name_parts)
-            file_path = self._loaded_data_dir_path / "csv" / file_name
+            file_path = self._loaded_data_dir_path / "csv_inputs" / file_name
 
         self._logger.info("writing categorizations to %s", file_path)
 
