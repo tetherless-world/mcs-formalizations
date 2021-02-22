@@ -1,6 +1,6 @@
 import csv
 from pathlib import Path
-from typing import Generator, List
+from typing import Generator, Dict
 
 from mcs_formalizations.path import DATA_DIR_PATH
 
