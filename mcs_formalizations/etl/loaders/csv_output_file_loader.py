@@ -37,7 +37,7 @@ class CsvOutputFileLoader(_Loader):
 
         self._logger.info("writing classification results to %s", file_path)
 
-        file_existed = os.path.isfile(file_path)
+        file_existed = os.path.exists(file_path)
 
         open_arg = "w"
 
