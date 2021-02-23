@@ -61,7 +61,7 @@ class CsvOutputFileLoader(_Loader):
 
             for results in models:
                 results_line = [
-                    results.classifier_type.value,
+                    results.classifier_type,
                     str(results.parameters),
                     results.file_name,
                     results.accuracy,
