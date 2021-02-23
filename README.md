@@ -81,7 +81,7 @@ to produce the input files in /data/loaded/FILE_TYPE
 
 ## Training the fasttext model
 
-In /fasttext/train.py, adjust the parameters according to the values set in "1. Adjusting the test file" of the last section.
+In /txt_classification/train.py, adjust the parameters according to the values set in "1. Adjusting the test file" of the last section.
 
 Consider adjusting the number of epochs that the model is trained through by adjusting the appropriate parameter. See the fastText documentation for more information.
 
@@ -89,7 +89,20 @@ From /txt_classification run
 
     python train.py
 
+## Testing Classifier Accuracy
 
+In /txt_classification/classify.py, adjust the variables as follows:
 
+    - categorization metadata: select values according to the categorization csv file in /data/loaded/csv_inputs that you want to test with
+    - parameters: fill in the parameters for the classifier that you want to classify with (e.g. If you want to use a DecisionTreeClassifier with max_depth of 5, parameters will be {"max_depth":5})
+    - ClassifierPipeline.classifier_type: select a classifier based on those defined in /txt_classification/classifiers.py
+
+See https://scikit-learn.org/stable/supervised_learning.html for more information about sklearn classifiers.
+
+From /txt_classification run
+
+    python classify.py
+
+Outputs (accuracy and balanced accuracy) can be found in /data/loaded/csv_outputs/classifier.csv
 
 

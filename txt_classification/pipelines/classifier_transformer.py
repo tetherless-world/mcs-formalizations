@@ -43,8 +43,6 @@ class ClassifierTransformer(_Transformer):
             sentence_vecs, labels, test_size=0.5, random_state=42
         )  # split the data into train and test (features (X) and labels (Y))
 
-        print(self._classifier.value)
-
         clf = self._classifier.value(
             **self._parameters
         )  # create a randomforest classifier object
