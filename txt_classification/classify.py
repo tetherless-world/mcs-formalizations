@@ -16,8 +16,10 @@ if __name__ == "__main__":
 
     parameters = {"n_estimators": 100}
 
+    parameters = {"gamma": 2, "C": 1}
+
     ClassifierPipeline(
-        classifier_type=Classifiers.RFC,
+        classifier_type=Classifiers.SVC,
         parameters=parameters,
         annotation_file_name=f"categorization_{categorization_metadata.categorizer_name}_{categorization_metadata.month_num}-{categorization_metadata.day_num}-{categorization_metadata.year_num}_{categorization_metadata.preprocessing}.csv",
         data_dir_path=DATA_DIR_PATH,
