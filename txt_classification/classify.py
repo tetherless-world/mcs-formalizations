@@ -20,7 +20,7 @@ if __name__ == "__main__":
     parameters = {}
 
     ClassifierPipeline(
-        classifier_type=Classifiers.GNB,
+        classifier_type=Classifiers.QDA,
         parameters=parameters,
         annotation_file_name=f"categorization_{categorization_metadata.categorizer_name}_{categorization_metadata.month_num}-{categorization_metadata.day_num}-{categorization_metadata.year_num}_{categorization_metadata.preprocessing}.csv",
         data_dir_path=DATA_DIR_PATH,
