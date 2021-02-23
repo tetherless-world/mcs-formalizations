@@ -39,14 +39,10 @@ class CsvOutputFileLoader(_Loader):
 
         file_existed = os.path.exists(file_path)
 
-        print(file_existed)
-
         open_arg = "w"
 
         if file_existed:
             open_arg = "a"
-
-        print(open_arg)
 
         header_row = [
             "classifier_type",
@@ -60,12 +56,12 @@ class CsvOutputFileLoader(_Loader):
 
             writer = csv.writer(file_)
 
-            if file_existed:
+            if not file_existed:
                 writer.writerow(header_row)
 
             for results in models:
                 results_line = [
-                    results.classifier_type,
+                    results.classifier_type.value,
                     str(results.parameters),
                     results.file_name,
                     results.accuracy,
