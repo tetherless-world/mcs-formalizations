@@ -17,6 +17,7 @@ if __name__ == "__main__":
     # parameters = {"n_estimators": 100}
 
     # parameters = {"gamma": 2, "C": 1}
+    parameters = {}
 
     ClassifierPipeline(
         classifier_type=Classifiers.GNB,
