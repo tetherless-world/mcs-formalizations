@@ -1,6 +1,6 @@
 import pandas as pd
 from sklearn import metrics
-
+from mcs_formalizations.path import DATA_DIR_PATH
 
 initials = ["M", "H", "A", "R", "G"]
 
@@ -11,7 +11,7 @@ def get_scores(df):
 
         y_test = df["Physical Entities-" + init]
 
-        others = initials.remove(init)
+        others = [i for i in initials if i != init]
 
         for other in others:
 
@@ -31,7 +31,7 @@ def get_scores(df):
 if __name__ == "__main__":
 
     with open(
-        "mcs_formalizations/data/categorization/Binary-PhysicalEntities.csv"
+        DATA_DIR_PATH / "categorization/Binary-PhysicalEntities.csv"
     ) as csv_file:
         df = pd.read_csv(csv_file)
 
