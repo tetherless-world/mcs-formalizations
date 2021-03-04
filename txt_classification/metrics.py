@@ -35,4 +35,6 @@ if __name__ == "__main__":
     ) as csv_file:
         df = pd.read_csv(csv_file)
 
+        df.drop(df.tail(1).index, inplace=True)
+
         get_scores(df)
