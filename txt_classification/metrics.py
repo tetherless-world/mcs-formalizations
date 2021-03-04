@@ -9,14 +9,12 @@ def get_scores(df):
 
     for init in initials:
 
-        print(init + " vs. ", end="")
-
         y_test = df["Physical Entities-" + init]
 
         others = [i for i in initials if i != init]
 
         for other in others:
-            print(other)
+            print(init + " vs. " + other)
 
             y_pred = df["Physical Entities-" + other]
 
