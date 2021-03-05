@@ -9,7 +9,7 @@ def get_scores(df):
 
     for init in initials:
 
-        y_test = df["Physical Entities-" + init]
+        y_test = df["Classes and instances-" + init]
 
         others = [i for i in initials if i != init]
 
@@ -31,7 +31,9 @@ def get_scores(df):
 
 if __name__ == "__main__":
 
-    with open(DATA_DIR_PATH / "categorization/Binary-PhysicalEntities.csv") as csv_file:
+    with open(
+        DATA_DIR_PATH / "categorization/Binary-Classesandinstances.csv"
+    ) as csv_file:
         df = pd.read_csv(csv_file)
 
         df.drop(df.tail(1).index, inplace=True)
