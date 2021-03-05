@@ -9,14 +9,14 @@ def get_scores(df):
 
     for init in initials:
 
-        y_test = df["Classes and instances-" + init]
+        y_test = df["Time-" + init]
 
         others = [i for i in initials if i != init]
 
         for other in others:
             print(init + " vs. " + other)
 
-            y_pred = df["Physical Entities-" + other]
+            y_pred = df["Time-" + other]
 
             print("Accuracy:", metrics.accuracy_score(y_test, y_pred))
             print("Balanced Accuracy:", metrics.balanced_accuracy_score(y_test, y_pred))
@@ -31,9 +31,7 @@ def get_scores(df):
 
 if __name__ == "__main__":
 
-    with open(
-        DATA_DIR_PATH / "categorization/Binary-Classesandinstances.csv"
-    ) as csv_file:
+    with open(DATA_DIR_PATH / "categorization/Binary-Time.csv") as csv_file:
         df = pd.read_csv(csv_file)
 
         df.drop(df.tail(1).index, inplace=True)
