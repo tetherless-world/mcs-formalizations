@@ -2,9 +2,9 @@ import pandas as pd
 from sklearn import metrics
 from mcs_formalizations.path import DATA_DIR_PATH
 
-initials = ["M", "H", "A", "R", "G"]
+# initials = ["M", "H", "A", "R", "G"]
 
-annotators = ["Minor", "Henrique", "Alice", "Rebecca", "Gretchen"]
+annotators = ["Alice", "Gretchen", "Henrique", "Rebecca"]
 
 
 def get_scores_original(df):
@@ -57,9 +57,12 @@ def get_scores_new(df):
 
 if __name__ == "__main__":
 
-    with open(DATA_DIR_PATH / "categorization/Time-Binary-1.csv") as csv_file:
+    with open(
+        DATA_DIR_PATH / "categorization/Alternate-Physical_Entities.csv"
+    ) as csv_file:
         df = pd.read_csv(csv_file)
 
-        df.drop(df.tail(1).index, inplace=True)
+        # This line is necessary for Alice's summary file.
+        # df.drop(df.tail(1).index, inplace=True)
 
         get_scores_new(df)
