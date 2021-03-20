@@ -21,25 +21,28 @@ classes = [
 annotators = ["Alice", "Gretchen", "Henrique", "Minor", "Rebecca"]
 
 
-def get_scores():
+def print_results(y_true, y_pred):
+    results = metrics.precision_recall_fscore_support(y_true, y_pred)
+    print("Precision:", results[0])
+    print("Recall:", results[1])
+    print("f-score:", results[2])
+    print(metrics.precision_score(y_true, y_pred, average="weighted"))
+    print(metrics.recall_score(y_true, y_pred, average="weighted"))
+
+
+def get_scores(true_threshold, pred_threshold):
 
     for name in annotators:
 
-        load_annotator(name, 3, truth)
+        load_annotator(name, true_threshold, truth)
 
         others = [i for i in annotators if i != name]
 
         for other in others:
-            load_annotator(other, 1, annotator0)
-
-        print(name + " vs. " + other)
-        print(truth)
-        results = metrics.precision_recall_fscore_support(truth, annotator0)
-        print("Precision:", results[0])
-        print("Recall:", results[1])
-        print("f-score:", results[2])
-        print(metrics.precision_score(truth, annotator0, average="weighted"))
-        print(metrics.recall_score(truth, annotator0, average="weighted"))
+            annotator = []
+            load_annotator(other, pred_threshold, annotator)
+            print(name + " vs. " + other)
+            print_results(truth, annotator)
 
 
 def load_annotator(annotator, threshold, data):
@@ -58,4 +61,7 @@ def load_annotator(annotator, threshold, data):
             data.append(labels)
 
 
-get_scores()
+true_threshold = 3
+pred_threshold = 1
+
+get_scores(true_threshold, pred_threshold)
