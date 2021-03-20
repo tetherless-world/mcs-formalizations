@@ -64,7 +64,7 @@ def load_annotator(annotator, threshold, data):
             data.append(labels)
 
 
-true_threshold = 3
+true_threshold = 2
 pred_threshold = 1
 
 get_scores(true_threshold, pred_threshold)
