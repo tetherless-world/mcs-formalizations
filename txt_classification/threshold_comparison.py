@@ -28,6 +28,7 @@ def print_results(y_true, y_pred):
     print("f-score:", results[2])
     print(metrics.precision_score(y_true, y_pred, average="weighted"))
     print(metrics.recall_score(y_true, y_pred, average="weighted"))
+    print()
 
 
 def get_scores(true_threshold, pred_threshold):
