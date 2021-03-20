@@ -34,6 +34,8 @@ def get_scores(true_threshold, pred_threshold):
 
     for name in annotators:
 
+        truth = []
+
         load_annotator(name, true_threshold, truth)
 
         others = [i for i in annotators if i != name]
