@@ -1,0 +1,11 @@
+classifier_type,parameters,file_name,accuracy,balanced_accuracy
+Classifiers.KNN,{'n_neighbors': 3},/home/forbug/mcs-formalizations/data/loaded/csv_inputs/categorization_Alice_12-15-2020_raw.csv,0.9038461538461539,0.3333333333333333
+Classifiers.SVC,"{'kernel': 'linear', 'C': 0.025}",/home/forbug/mcs-formalizations/data/loaded/csv_inputs/categorization_Alice_12-15-2020_raw.csv,0.9038461538461539,0.3333333333333333
+Classifiers.SVC,"{'kernel': 'rbf', 'C': 0.025, 'probability': True}",/home/forbug/mcs-formalizations/data/loaded/csv_inputs/categorization_Alice_12-15-2020_raw.csv,0.9038461538461539,0.3333333333333333
+Classifiers.GPC,{},/home/forbug/mcs-formalizations/data/loaded/csv_inputs/categorization_Alice_12-15-2020_raw.csv,0.9038461538461539,0.3333333333333333
+Classifiers.DTC,{'max_depth': 5},/home/forbug/mcs-formalizations/data/loaded/csv_inputs/categorization_Alice_12-15-2020_raw.csv,0.8653846153846154,0.3953900709219858
+Classifiers.RFC,"{'max_depth': 5, 'n_estimators': 10, 'max_features': 1}",/home/forbug/mcs-formalizations/data/loaded/csv_inputs/categorization_Alice_12-15-2020_raw.csv,0.9038461538461539,0.3333333333333333
+Classifiers.MLPC,"{'alpha': 1, 'max_iter': 1000}",/home/forbug/mcs-formalizations/data/loaded/csv_inputs/categorization_Alice_12-15-2020_raw.csv,0.9038461538461539,0.3333333333333333
+Classifiers.ABC,{},/home/forbug/mcs-formalizations/data/loaded/csv_inputs/categorization_Alice_12-15-2020_raw.csv,0.9038461538461539,0.3333333333333333
+Classifiers.GNB,{},/home/forbug/mcs-formalizations/data/loaded/csv_inputs/categorization_Alice_12-15-2020_raw.csv,0.9038461538461539,0.3333333333333333
+Classifiers.QDA,{},/home/forbug/mcs-formalizations/data/loaded/csv_inputs/categorization_Alice_12-15-2020_raw.csv,0.8269230769230769,0.4574468085106383

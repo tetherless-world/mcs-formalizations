@@ -58,7 +58,7 @@ def get_scores_new(df):
 if __name__ == "__main__":
 
     with open(
-        DATA_DIR_PATH / "categorization/Alternate-Physical_Entities.csv"
+        DATA_DIR_PATH / "categorization/Alternate-Time.csv"
     ) as csv_file:
         df = pd.read_csv(csv_file)
 
