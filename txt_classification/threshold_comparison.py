@@ -1,6 +1,7 @@
 import csv
 from sklearn import metrics
 from string import Template
+from mcs_formalizations.path import DATA_DIR_PATH
 
 truth = []
 annotator0 = []
@@ -42,7 +43,9 @@ def get_scores():
 
 
 def load_annotator(annotator, threshold, data):
-    path = Template("data/categorization/${annotator}_Categorization_12-15-2020.csv")
+    path = Template(
+        DATA_DIR_PATH / "/categorization/${annotator}_Categorization_12-15-2020.csv"
+    )
     with open(path.substitute(annotator=annotator), "r") as csvfile:
         csvreader = csv.DictReader(csvfile)
         for row in csvreader:
