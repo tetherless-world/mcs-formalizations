@@ -15,7 +15,16 @@ classes_1 = [
     "Sets",
 ]
 
-classes_2 = ["Time", "World States", "Classes and Instances", "Sets", "Values and Quantities", "Space", "Physical entities", "Events"]
+classes_2 = [
+    "Time",
+    "World States",
+    "Classes and Instances",
+    "Sets",
+    "Values and Quantities",
+    "Space",
+    "Physical entities",
+    "Events",
+]
 
 
 annotators = ["Alice", "Gretchen", "Henrique", "Rebecca"]
@@ -41,10 +50,11 @@ def get_scores():
         load_annotator_old(name, exercise_one)
 
         load_annotator_new(name, exercise_two)
-        
+
         print(name)
-        
+
         print_results(exercise_one, exercise_two)
+
 
 def load_annotator_new(annotator, data):
     path = Template(
@@ -54,8 +64,8 @@ def load_annotator_new(annotator, data):
         csvreader = csv.DictReader(csvfile)
         for row in csvreader:
             labels = []
-            for _class in classes_2:
-                labels.append(int(row[_class]))
+            for _class in classes_1:
+                labels.append(int(row[_class.title()]))
             data.append(labels)
 
 
@@ -70,7 +80,7 @@ def load_annotator_old(annotator, data):
             labels = []
             rank_counts = dict()
             for _class in classes_1:
-                if row[_class].strip() == '':
+                if row[_class].strip() == "":
                     continue
                 elif int(row[_class]) in rank_counts.keys():
                     rank_counts[int(row[_class])] += 1
@@ -80,7 +90,7 @@ def load_annotator_old(annotator, data):
 
             max_labels = []
 
-            if rank_counts[sorted_ranks[0]] == 1 and len(rank_counts)>1:
+            if rank_counts[sorted_ranks[0]] == 1 and len(rank_counts) > 1:
                 max_labels = [sorted_ranks[0], sorted_ranks[1]]
             else:
                 max_labels = [sorted_ranks[0]]
@@ -93,8 +103,7 @@ def load_annotator_old(annotator, data):
             data.append(labels)
             if i == 0:
                 print(labels)
-            i+=1
-
+            i += 1
 
 
 get_scores()
