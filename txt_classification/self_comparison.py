@@ -62,11 +62,15 @@ def load_annotator_new(annotator, data):
     )
     with open(path.substitute(annotator=annotator), "r") as csvfile:
         csvreader = csv.DictReader(csvfile)
+        i = 0
         for row in csvreader:
             labels = []
             for _class in classes_1:
                 labels.append(int(row[_class.title()]))
             data.append(labels)
+            if i == 0:
+                print(labels)
+            i +=1
 
 
 def load_annotator_old(annotator, data):
