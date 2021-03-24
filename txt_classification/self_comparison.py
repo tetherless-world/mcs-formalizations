@@ -4,7 +4,7 @@ from string import Template
 from mcs_formalizations.path import DATA_DIR_PATH
 
 
-classes = [
+classes_1 = [
     "Time",
     "World states",
     "Events",
@@ -14,6 +14,10 @@ classes = [
     "Classes and instances",
     "Sets",
 ]
+
+classes_2 = ["Time", "World States", "Classes and Instances", "Sets", "Values and Quantities", "Space", "Physical entities", "Events"]
+
+
 annotators = ["Alice", "Gretchen", "Henrique", "Rebecca"]
 
 
@@ -36,7 +40,7 @@ def get_scores():
 
         load_annotator_old(name, exercise_one)
 
-        load_annotator_new(other, exercise_two)
+        load_annotator_new(name, exercise_two)
         
         print(name)
         
@@ -44,13 +48,13 @@ def get_scores():
 
 def load_annotator_new(annotator, data):
     path = Template(
-        str(DATA_DIR_PATH / "categorization/Alternate_${annotator}_Binary.csv")
+        str(DATA_DIR_PATH / "categorization/Alternate-${annotator}-Binary.csv")
     )
     with open(path.substitute(annotator=annotator), "r") as csvfile:
         csvreader = csv.DictReader(csvfile)
         for row in csvreader:
             labels = []
-            for _class in classes:
+            for _class in classes_2:
                 labels.append(int(row[_class]))
             data.append(labels)
 
@@ -65,8 +69,10 @@ def load_annotator_old(annotator, data):
         for row in csvreader:
             labels = []
             rank_counts = dict()
-            for _class in classes:
-                if int(row[_class]) in rank_counts.keys():
+            for _class in classes_1:
+                if row[_class].strip() == '':
+                    continue
+                elif int(row[_class]) in rank_counts.keys():
                     rank_counts[int(row[_class])] += 1
                 else:
                     rank_counts[int(row[_class])] = 1
@@ -74,12 +80,12 @@ def load_annotator_old(annotator, data):
 
             max_labels = []
 
-            if rank_counts[sorted_ranks[0]] =1:
+            if rank_counts[sorted_ranks[0]] == 1 and len(rank_counts)>1:
                 max_labels = [sorted_ranks[0], sorted_ranks[1]]
             else:
                 max_labels = [sorted_ranks[0]]
 
-            for _class in classes:
+            for _class in classes_1:
                 if row[_class].strip() == "" or int(row[_class]) not in max_labels:
                     labels.append(0)
                 else:
