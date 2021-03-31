@@ -44,19 +44,18 @@ def get_scores():
 
     for name in annotators:
 
-        exercise_one = []
-        exercise_two = []
+        first_half_old, second_half_old = load_annotator_old(name)
 
-        load_annotator_old(name, exercise_one)
-
-        load_annotator_new(name, exercise_two)
+        first_half_new, second_half_new = load_annotator_new(name)
 
         print(name)
 
-        print_results(exercise_one, exercise_two)
+        print_results(first_half_old, first_half_new)
+        print_results(second_half_old, second_half_new)
 
 
-def load_annotator_new(annotator, data):
+def load_annotator_new(annotator):
+    data = []
     path = Template(
         str(DATA_DIR_PATH / "categorization/Alternate-${annotator}-Binary.csv")
     )
@@ -68,11 +67,14 @@ def load_annotator_new(annotator, data):
                 labels.append(int(row[_class.title()]))
             data.append(labels)
 
+    return data[:100], data[101:]
 
-def load_annotator_old(annotator, data):
+
+def load_annotator_old(annotator):
     path = Template(
         str(DATA_DIR_PATH / "categorization/${annotator}_Categorization_12-15-2020.csv")
     )
+    data = []
     with open(path.substitute(annotator=annotator), "r") as csvfile:
         csvreader = csv.DictReader(csvfile)
         i = 0
@@ -104,6 +106,8 @@ def load_annotator_old(annotator, data):
             if i == 0:
                 print(labels)
             i += 1
+
+    return data[:100], data[101:]
 
 
 get_scores()
