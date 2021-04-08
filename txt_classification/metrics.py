@@ -3,10 +3,72 @@ import os
 from sklearn import metrics
 from mcs_formalizations.path import DATA_DIR_PATH, ROOT_DIR_PATH
 import csv
+from scipy import stats
+
 # initials = ["M", "H", "A", "R", "G"]
 old_names = ["Minor", "Henrique", "Alice", "Rebecca", "Gretchen"]
 
 annotators = ["Alice", "Gretchen", "Henrique", "Rebecca"]
+
+
+def get_pvalues(threshold):
+
+    categories = [
+        "Values-and-Quantities",
+        "Events",
+        "Classes-and-Instances",
+        "Space",
+        "Time",
+        "Sets",
+        "Physical-Entities",
+        "World-States",
+    ]
+
+    for category in categories:
+
+        file_path = (
+            ROOT_DIR_PATH / f"txt_classification/results/{category}_{threshold}.csv"
+        )
+
+        if os.path.exists(file_path):
+            append_write = "a"
+        else:
+            append_write = "w"
+
+        with open(file_path, append_write) as file_:
+
+            writer = csv.writer(file_)
+
+            writer.writerow([category])
+
+            with open(
+                DATA_DIR_PATH / f"categorization/{category}_Binary_{threshold}.csv"
+            ) as csv_file:
+                df = pd.read_csv(csv_file)
+
+                for init in old_names:
+
+                    y_test = df[init]
+
+                    others = [i for i in old_names if i != init]
+
+                    pvalue_list = ["P-value"]
+
+                    for other in others:
+                        print(init + " vs. " + other)
+
+                        y_pred = df[other]
+
+                        pvalue_list.append(stats.ttest_ind(y_test, y_pred))
+
+                        # tn, fp, fn, tp = metrics.confusion_matrix(y_test, y_pred).ravel()
+                        # print(tn, fp, fn, tp)
+                        # print(metrics.classification_report(y_test, y_pred))
+
+                    header_row = [init] + others
+                    writer.writerow(header_row)
+                    writer.writerow(pvalue_list)
+                    writer.writerow([])
 
 
 def get_scores_original(df, file_path):
@@ -29,7 +91,9 @@ def get_scores_original(df, file_path):
             y_pred = df[other]
 
             accuracy_list.append(metrics.accuracy_score(y_test, y_pred))
-            balanced_accuracy_list.append(metrics.balanced_accuracy_score(y_test, y_pred))
+            balanced_accuracy_list.append(
+                metrics.balanced_accuracy_score(y_test, y_pred)
+            )
             precision_list.append(metrics.precision_score(y_test, y_pred))
             recall_list.append(metrics.recall_score(y_test, y_pred))
             f1_list.append(metrics.f1_score(y_test, y_pred))
@@ -41,9 +105,9 @@ def get_scores_original(df, file_path):
         header_row = [init] + others
 
         if os.path.exists(file_path):
-            append_write = 'a'
+            append_write = "a"
         else:
-            append_write = 'w'
+            append_write = "w"
 
         with open(file_path, append_write) as file_:
 
@@ -55,8 +119,6 @@ def get_scores_original(df, file_path):
             writer.writerow(recall_list)
             writer.writerow(f1_list)
             writer.writerow([])
-
-
 
 
 def get_scores_new(df):
@@ -83,21 +145,23 @@ def get_scores_new(df):
             print(metrics.classification_report(y_test, y_pred))
 
 
-
 if __name__ == "__main__":
 
-    categories = ['Values-and-Quantities']
+    categories = ["Values-and-Quantities"]
     threshold = 1
-
 
     for category in categories:
 
-        with open(DATA_DIR_PATH / f"categorization/{category}_Binary_{threshold}.csv") as csv_file:
+        with open(
+            DATA_DIR_PATH / f"categorization/{category}_Binary_{threshold}.csv"
+        ) as csv_file:
             df = pd.read_csv(csv_file)
 
             # This line is necessary for Alice's summary file.
             # df.drop(df.tail(1).index, inplace=True)
 
-            file_path = ROOT_DIR_PATH / f"txt_classification/results/{category}_{threshold}.csv"
+            file_path = (
+                ROOT_DIR_PATH / f"txt_classification/results/{category}_{threshold}.csv"
+            )
 
             get_scores_original(df, file_path)
