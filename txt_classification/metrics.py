@@ -1,11 +1,7 @@
 import pandas as pd
 import os
 from sklearn import metrics
-<<<<<<< HEAD
 from mcs_formalizations.path import DATA_DIR_PATH, ROOT_DIR_PATH
-=======
-from mcs_formalizations.path import DATA_DIR_PATH
->>>>>>> abb654fd8f83bcc77b635d4512fa31c5746187ac
 import csv
 # initials = ["M", "H", "A", "R", "G"]
 old_names = ["Minor", "Henrique", "Alice", "Rebecca", "Gretchen"]
@@ -90,8 +86,8 @@ def get_scores_new(df):
 
 if __name__ == "__main__":
 
-    categories = ['Classes-and-Instances', 'Events', 'Physical-Entities', 'Sets', 'Space', 'Time', 'World-States']
-    threshold = 3
+    categories = ['Classes-and-Instances','Events', 'Physical-Entities','Sets', 'Space', 'Time', 'World-States']
+    threshold = 5
 
     for category in categories:
 
