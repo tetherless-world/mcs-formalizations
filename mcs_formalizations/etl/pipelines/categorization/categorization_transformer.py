@@ -56,7 +56,7 @@ class CategorizationTransformer(_Transformer):
         labels = []
 
         for category, value in rankings.items():
-            if value.strip() != "" and int(value) > self.threshold:
+            if value.strip() != "" and int(value) >= self.threshold:
                 formatted_category = "-".join(category.split())
                 labels.append(formatted_category)
 

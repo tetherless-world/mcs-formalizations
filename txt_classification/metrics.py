@@ -3,22 +3,23 @@ from sklearn import metrics
 from mcs_formalizations.path import DATA_DIR_PATH
 
 # initials = ["M", "H", "A", "R", "G"]
+old_names = ["Minor", "Alice", "Gretchen", "Henrique", "Rebecca"]
 
 annotators = ["Alice", "Gretchen", "Henrique", "Rebecca"]
 
 
 def get_scores_original(df):
 
-    for init in initials:
+    for init in old_names:
 
-        y_test = df["Time-" + init]
+        y_test = df[init]
 
-        others = [i for i in initials if i != init]
+        others = [i for i in old_names if i != init]
 
         for other in others:
             print(init + " vs. " + other)
 
-            y_pred = df["Time-" + other]
+            y_pred = df[other]
 
             print("Accuracy:", metrics.accuracy_score(y_test, y_pred))
             print("Balanced Accuracy:", metrics.balanced_accuracy_score(y_test, y_pred))
@@ -57,12 +58,10 @@ def get_scores_new(df):
 
 if __name__ == "__main__":
 
-    with open(
-        DATA_DIR_PATH / "categorization/Alternate-Time.csv"
-    ) as csv_file:
+    with open(DATA_DIR_PATH / "categorization/Time_Binary_1.csv") as csv_file:
         df = pd.read_csv(csv_file)
 
         # This line is necessary for Alice's summary file.
         # df.drop(df.tail(1).index, inplace=True)
 
-        get_scores_new(df)
+        get_scores_original(df)

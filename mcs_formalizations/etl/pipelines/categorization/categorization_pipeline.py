@@ -40,11 +40,7 @@ class CategorizationPipeline(_Pipeline):
             year_num=year_num,
         )
 
-        formatted_id = (
-            f"{self.ID}_{categorizer_name}_{month_num}-{day_num}-{year_num}_with_stopwords"
-            if preprocess
-            else f"{self.ID}_{categorizer_name}_{month_num}-{day_num}-{year_num}_raw"
-        )
+        formatted_id = f"{self.ID}_{categorizer_name}_{threshold}"
 
         file_loader = (
             CsvFileLoader(pipeline_id=formatted_id, data_dir_path=data_dir_path, **kwds)
