@@ -8,7 +8,7 @@ old_names = ["Minor", "Henrique", "Alice", "Rebecca", "Gretchen"]
 annotators = ["Alice", "Gretchen", "Henrique", "Rebecca"]
 
 
-def get_scores_original(df):
+def get_scores_original(df, file_path):
 
     for init in old_names:
 
@@ -16,20 +16,37 @@ def get_scores_original(df):
 
         others = [i for i in old_names if i != init]
 
+        accuracy_list = ["Accuracy"]
+        balanced_accuracy_list = ["Balanced Accuracy"]
+        precision_list = ["Precision"]
+        recall_list = ["Recall"]
+        f1_list = ["F1 score"]
+
         for other in others:
             print(init + " vs. " + other)
 
             y_pred = df[other]
 
-            print("Accuracy:", metrics.accuracy_score(y_test, y_pred))
-            print("Balanced Accuracy:", metrics.balanced_accuracy_score(y_test, y_pred))
-            print("Precision:", metrics.precision_score(y_test, y_pred))
-            print("Recall:", metrics.recall_score(y_test, y_pred))
-            print("F1 score", metrics.f1_score(y_test, y_pred))
+            accuracy_list.append(metrics.accuracy_score(y_test, y_pred))
+            balanced_accuracy_list.append(metrics.balanced_accuracy_score(y_test, y_pred)))
+            precision_list.append(metrics.precision_score(y_test, y_pred)))
+            recall_list.append(metrics.recall_score(y_test, y_pred)))
+            f1_list.append(metrics.f1_score(y_test, y_pred)))
 
-            tn, fp, fn, tp = metrics.confusion_matrix(y_test, y_pred).ravel()
-            print(tn, fp, fn, tp)
-            print(metrics.classification_report(y_test, y_pred))
+            # tn, fp, fn, tp = metrics.confusion_matrix(y_test, y_pred).ravel()
+            # print(tn, fp, fn, tp)
+            # print(metrics.classification_report(y_test, y_pred))
+
+        header_row = [init] + others
+
+        with open(file_path, "w") as file_:
+
+            writer = csv.writer(file_)
+            writer.writerow(header_row)
+            writer.writerow(sample_line)
+            writer.writerow([])
+
+
 
 
 def get_scores_new(df):
@@ -56,12 +73,20 @@ def get_scores_new(df):
             print(metrics.classification_report(y_test, y_pred))
 
 
+
 if __name__ == "__main__":
 
-    with open(DATA_DIR_PATH / "categorization/Time_Binary_3.csv") as csv_file:
-        df = pd.read_csv(csv_file)
+    categories = ['Classes-and-Instances', 'Events', 'Physical-Entities', 'Sets', 'Space', 'Time', 'World-States']
+    threshold = 3
 
-        # This line is necessary for Alice's summary file.
-        # df.drop(df.tail(1).index, inplace=True)
+    for category in categories:
 
-        get_scores_original(df)
+        with open(DATA_DIR_PATH / f"categorization/{category}_Binary_{threshold}.csv") as csv_file:
+            df = pd.read_csv(csv_file)
+
+            # This line is necessary for Alice's summary file.
+            # df.drop(df.tail(1).index, inplace=True)
+
+            file_path = f"txt_classification/results/{category}_{threshold}.csv"
+
+            get_scores_original(df, file_path)
