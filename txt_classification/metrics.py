@@ -3,7 +3,7 @@ from sklearn import metrics
 from mcs_formalizations.path import DATA_DIR_PATH
 
 # initials = ["M", "H", "A", "R", "G"]
-old_names = ["Minor", "Alice", "Gretchen", "Henrique", "Rebecca"]
+old_names = ["Minor", "Henrique", "Alice", "Rebecca", "Gretchen"]
 
 annotators = ["Alice", "Gretchen", "Henrique", "Rebecca"]
 
@@ -58,7 +58,7 @@ def get_scores_new(df):
 
 if __name__ == "__main__":
 
-    with open(DATA_DIR_PATH / "categorization/Time_Binary_1.csv") as csv_file:
+    with open(DATA_DIR_PATH / "categorization/Time_Binary_3.csv") as csv_file:
         df = pd.read_csv(csv_file)
 
         # This line is necessary for Alice's summary file.
