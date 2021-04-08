@@ -43,7 +43,11 @@ def get_scores_original(df, file_path):
 
             writer = csv.writer(file_)
             writer.writerow(header_row)
-            writer.writerow(sample_line)
+            writer.writerow(accuracy_list)
+            writer.writerow(balanced_accuracy_list)
+            writer.writerow(precision_list)
+            writer.writerow(recall_list)
+            writer.writerow(f1_list)
             writer.writerow([])
 
 
