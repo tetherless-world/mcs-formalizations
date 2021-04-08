@@ -86,8 +86,9 @@ def get_scores_new(df):
 
 if __name__ == "__main__":
 
-    categories = ['Classes-and-Instances','Events', 'Physical-Entities','Sets', 'Space', 'Time', 'World-States']
-    threshold = 5
+    categories = ['Values-and-Quantities']
+    threshold = 1
+
 
     for category in categories:
 
