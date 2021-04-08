@@ -1,7 +1,8 @@
 import pandas as pd
+import os
 from sklearn import metrics
 from mcs_formalizations.path import DATA_DIR_PATH
-
+import csv
 # initials = ["M", "H", "A", "R", "G"]
 old_names = ["Minor", "Henrique", "Alice", "Rebecca", "Gretchen"]
 
@@ -39,7 +40,12 @@ def get_scores_original(df, file_path):
 
         header_row = [init] + others
 
-        with open(file_path, "w") as file_:
+        if os.path.exists(file_path):
+            append_write = 'a'
+        else:
+            append_write = 'w'
+
+        with open(file_path, append_write) as file_:
 
             writer = csv.writer(file_)
             writer.writerow(header_row)
