@@ -40,3 +40,19 @@ Precision,0.7073170731707317,0.75,0.7083333333333334,0.639344262295082
 Recall,0.6170212765957447,0.44680851063829785,0.3617021276595745,0.8297872340425532
 F1 score,0.6590909090909092,0.56,0.4788732394366197,0.7222222222222223
 
+Space
+Minor,Henrique,Alice,Rebecca,Gretchen
+P-value,"Ttest_indResult(statistic=1.722499594260507, pvalue=0.0857558892876608)","Ttest_indResult(statistic=2.313729968054814, pvalue=0.0211912595409355)","Ttest_indResult(statistic=-2.3037739291379142, pvalue=0.02174984195982108)","Ttest_indResult(statistic=-0.7228681022265613, pvalue=0.4701854874014706)"
+
+Henrique,Minor,Alice,Rebecca,Gretchen
+P-value,"Ttest_indResult(statistic=-1.722499594260507, pvalue=0.0857558892876608)","Ttest_indResult(statistic=0.5934748430898581, pvalue=0.5532005282676883)","Ttest_indResult(statistic=-4.037349135338282, pvalue=6.485758670996443e-05)","Ttest_indResult(statistic=-2.4460362212436424, pvalue=0.014875778273431377)"
+
+Alice,Minor,Henrique,Rebecca,Gretchen
+P-value,"Ttest_indResult(statistic=-2.313729968054814, pvalue=0.0211912595409355)","Ttest_indResult(statistic=-0.5934748430898581, pvalue=0.5532005282676883)","Ttest_indResult(statistic=-4.631003542698411, pvalue=4.935327001946269e-06)","Ttest_indResult(statistic=-3.0368015772413743, pvalue=0.002548396550780468)"
+
+Rebecca,Minor,Henrique,Alice,Gretchen
+P-value,"Ttest_indResult(statistic=2.3037739291379142, pvalue=0.02174984195982108)","Ttest_indResult(statistic=4.037349135338282, pvalue=6.485758670996443e-05)","Ttest_indResult(statistic=4.631003542698411, pvalue=4.935327001946269e-06)","Ttest_indResult(statistic=1.5776841978693852, pvalue=0.11543262749364831)"
+
+Gretchen,Minor,Henrique,Alice,Rebecca
+P-value,"Ttest_indResult(statistic=0.7228681022265613, pvalue=0.4701854874014706)","Ttest_indResult(statistic=2.4460362212436424, pvalue=0.014875778273431377)","Ttest_indResult(statistic=3.0368015772413743, pvalue=0.002548396550780468)","Ttest_indResult(statistic=-1.5776841978693852, pvalue=0.11543262749364831)"
+

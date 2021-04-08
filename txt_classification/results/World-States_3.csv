@@ -40,3 +40,19 @@ Precision,0.1232876712328767,0.11688311688311688,0.5,0.1411764705882353
 Recall,0.5294117647058824,0.5294117647058824,0.29411764705882354,0.7058823529411765
 F1 score,0.2,0.19148936170212763,0.37037037037037035,0.2352941176470588
 
+World-States
+Minor,Henrique,Alice,Rebecca,Gretchen
+P-value,"Ttest_indResult(statistic=-0.4121720732279079, pvalue=0.6804352120698633)","Ttest_indResult(statistic=8.408549046820013, pvalue=7.490250636817333e-16)","Ttest_indResult(statistic=-1.2266082864021843, pvalue=0.22069500607841483)","Ttest_indResult(statistic=7.09935944567161, pvalue=5.797660966725752e-12)"
+
+Henrique,Minor,Alice,Rebecca,Gretchen
+P-value,"Ttest_indResult(statistic=0.4121720732279079, pvalue=0.6804352120698633)","Ttest_indResult(statistic=8.863433918148639, pvalue=2.62478315860863e-17)","Ttest_indResult(statistic=-0.8134788845855997, pvalue=0.41642993116307647)","Ttest_indResult(statistic=7.545759308904943, pvalue=3.0893220501158323e-13)"
+
+Alice,Minor,Henrique,Rebecca,Gretchen
+P-value,"Ttest_indResult(statistic=-8.408549046820013, pvalue=7.490250636817333e-16)","Ttest_indResult(statistic=-8.863433918148639, pvalue=2.62478315860863e-17)","Ttest_indResult(statistic=-9.791728362525271, pvalue=1.9939053096582102e-20)","Ttest_indResult(statistic=-1.3949619988543973, pvalue=0.16380527229757247)"
+
+Rebecca,Minor,Henrique,Alice,Gretchen
+P-value,"Ttest_indResult(statistic=1.2266082864021843, pvalue=0.22069500607841483)","Ttest_indResult(statistic=0.8134788845855997, pvalue=0.41642993116307647)","Ttest_indResult(statistic=9.791728362525271, pvalue=1.9939053096582102e-20)","Ttest_indResult(statistic=8.450382889328345, pvalue=5.53064607866674e-16)"
+
+Gretchen,Minor,Henrique,Alice,Rebecca
+P-value,"Ttest_indResult(statistic=-7.09935944567161, pvalue=5.797660966725752e-12)","Ttest_indResult(statistic=-7.545759308904943, pvalue=3.0893220501158323e-13)","Ttest_indResult(statistic=1.3949619988543973, pvalue=0.16380527229757247)","Ttest_indResult(statistic=-8.450382889328345, pvalue=5.53064607866674e-16)"
+

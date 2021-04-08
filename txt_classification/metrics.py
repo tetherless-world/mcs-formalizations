@@ -20,14 +20,14 @@ def get_pvalues(threshold):
         "Space",
         "Time",
         "Sets",
-        "Physical-Entities",
+#        "Physical-Entities",
         "World-States",
     ]
 
     for category in categories:
-
+        print(category)
         file_path = (
-            ROOT_DIR_PATH / f"txt_classification/results/{category}_{threshold}.csv"
+            ROOT_DIR_PATH / f"txt_classification/results/p-value_{category}_{threshold}.csv"
         )
 
         if os.path.exists(file_path):
@@ -147,21 +147,22 @@ def get_scores_new(df):
 
 if __name__ == "__main__":
 
-    categories = ["Values-and-Quantities"]
+ #   categories = ["Values-and-Quantities"]
     threshold = 1
 
-    for category in categories:
+#    for category in categories:
 
-        with open(
-            DATA_DIR_PATH / f"categorization/{category}_Binary_{threshold}.csv"
-        ) as csv_file:
-            df = pd.read_csv(csv_file)
+     #   with open(
+      #      DATA_DIR_PATH / f"categorization/{category}_Binary_{threshold}.csv"
+       # ) as csv_file:
+        #    df = pd.read_csv(csv_file)
 
             # This line is necessary for Alice's summary file.
             # df.drop(df.tail(1).index, inplace=True)
 
-            file_path = (
-                ROOT_DIR_PATH / f"txt_classification/results/{category}_{threshold}.csv"
-            )
+          #  file_path = (
+         #       ROOT_DIR_PATH / f"txt_classification/results/{category}_{threshold}.csv"
+        #    )
 
-            get_scores_original(df, file_path)
+       #     get_scores_original(df, file_path)
+    get_pvalues(threshold)

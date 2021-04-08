@@ -1,0 +1,16 @@
+Time
+Minor,Henrique,Alice,Rebecca,Gretchen
+P-value,"Ttest_indResult(statistic=-1.9337227353336395, pvalue=0.05385595969130745)","Ttest_indResult(statistic=1.6468440728680767, pvalue=0.10037940137475504)","Ttest_indResult(statistic=-1.737225114581021, pvalue=0.08312105563340319)","Ttest_indResult(statistic=-2.303620339089466, pvalue=0.02175855891311849)"
+
+Henrique,Minor,Alice,Rebecca,Gretchen
+P-value,"Ttest_indResult(statistic=1.9337227353336395, pvalue=0.05385595969130745)","Ttest_indResult(statistic=3.300881320268012, pvalue=0.0010507829073163517)","Ttest_indResult(statistic=0.2060530566916324, pvalue=0.8368548267222057)","Ttest_indResult(statistic=-0.3910249345294257, pvalue=0.6959880411997263)"
+
+Alice,Minor,Henrique,Rebecca,Gretchen
+P-value,"Ttest_indResult(statistic=-1.6468440728680767, pvalue=0.10037940137475504)","Ttest_indResult(statistic=-3.300881320268012, pvalue=0.0010507829073163517)","Ttest_indResult(statistic=-3.1317960724656384, pvalue=0.0018657867166085016)","Ttest_indResult(statistic=-3.6214633282038373, pvalue=0.00033080370203041276)"
+
+Rebecca,Minor,Henrique,Alice,Gretchen
+P-value,"Ttest_indResult(statistic=1.737225114581021, pvalue=0.08312105563340319)","Ttest_indResult(statistic=-0.2060530566916324, pvalue=0.8368548267222057)","Ttest_indResult(statistic=3.1317960724656384, pvalue=0.0018657867166085016)","Ttest_indResult(statistic=-0.5966513591411129, pvalue=0.5510793976297164)"
+
+Gretchen,Minor,Henrique,Alice,Rebecca
+P-value,"Ttest_indResult(statistic=2.303620339089466, pvalue=0.02175855891311849)","Ttest_indResult(statistic=0.3910249345294257, pvalue=0.6959880411997263)","Ttest_indResult(statistic=3.6214633282038373, pvalue=0.00033080370203041276)","Ttest_indResult(statistic=0.5966513591411129, pvalue=0.5510793976297164)"
+

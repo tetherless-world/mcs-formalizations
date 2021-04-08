@@ -40,3 +40,19 @@ Precision,0.8974358974358975,0.7428571428571429,0.6666666666666666,0.76612903225
 Recall,0.5223880597014925,0.7761194029850746,0.417910447761194,0.7089552238805971
 F1 score,0.660377358490566,0.759124087591241,0.5137614678899082,0.7364341085271318
 
+Physical-Entities
+Minor,Henrique,Alice,Rebecca,Gretchen
+P-value,"Ttest_indResult(statistic=-6.534279403504503, pvalue=1.958376543465332e-10)","Ttest_indResult(statistic=-0.60988738044202, pvalue=0.5422844532133394)","Ttest_indResult(statistic=-4.715137724313013, pvalue=3.34676821825854e-06)","Ttest_indResult(statistic=-5.830129839322202, pvalue=1.1462237869602554e-08)"
+
+Henrique,Minor,Alice,Rebecca,Gretchen
+P-value,"Ttest_indResult(statistic=6.534279403504503, pvalue=1.958376543465332e-10)","Ttest_indResult(statistic=5.864730320176287, pvalue=9.464942575226414e-09)","Ttest_indResult(statistic=1.6906119487395157, pvalue=0.09169387494845821)","Ttest_indResult(statistic=0.6445532187294762, pvalue=0.5195880730452326)"
+
+Alice,Minor,Henrique,Rebecca,Gretchen
+P-value,"Ttest_indResult(statistic=0.60988738044202, pvalue=0.5422844532133394)","Ttest_indResult(statistic=-5.864730320176287, pvalue=9.464942575226414e-09)","Ttest_indResult(statistic=-4.075661708721652, pvalue=5.5410986025403525e-05)","Ttest_indResult(statistic=-5.1734494583857815, pvalue=3.650646857630088e-07)"
+
+Rebecca,Minor,Henrique,Alice,Gretchen
+P-value,"Ttest_indResult(statistic=4.715137724313013, pvalue=3.34676821825854e-06)","Ttest_indResult(statistic=-1.6906119487395157, pvalue=0.09169387494845821)","Ttest_indResult(statistic=4.075661708721652, pvalue=5.5410986025403525e-05)","Ttest_indResult(statistic=-1.0437128651012, pvalue=0.29725177483756055)"
+
+Gretchen,Minor,Henrique,Alice,Rebecca
+P-value,"Ttest_indResult(statistic=5.830129839322202, pvalue=1.1462237869602554e-08)","Ttest_indResult(statistic=-0.6445532187294762, pvalue=0.5195880730452326)","Ttest_indResult(statistic=5.1734494583857815, pvalue=3.650646857630088e-07)","Ttest_indResult(statistic=1.0437128651012, pvalue=0.29725177483756055)"
+

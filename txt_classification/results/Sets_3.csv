@@ -40,3 +40,19 @@ Precision,0.5344827586206896,0.7692307692307693,0.6178861788617886,0.59803921568
 Recall,0.5794392523364486,0.37383177570093457,0.7102803738317757,0.5700934579439252
 F1 score,0.5560538116591928,0.5031446540880503,0.6608695652173914,0.583732057416268
 
+Sets
+Minor,Henrique,Alice,Rebecca,Gretchen
+P-value,"Ttest_indResult(statistic=6.836491401215908, pvalue=3.063417136567032e-11)","Ttest_indResult(statistic=-0.7123679694242067, pvalue=0.4766543369316447)","Ttest_indResult(statistic=1.4056623082457225, pvalue=0.16060456873073042)","Ttest_indResult(statistic=0.9046718045106831, pvalue=0.3661865646201665)"
+
+Henrique,Minor,Alice,Rebecca,Gretchen
+P-value,"Ttest_indResult(statistic=-6.836491401215908, pvalue=3.063417136567032e-11)","Ttest_indResult(statistic=-7.644299309661451, pvalue=1.5894093224030628e-13)","Ttest_indResult(statistic=-5.30283454973029, pvalue=1.895167743184714e-07)","Ttest_indResult(statistic=-5.840550519722827, pvalue=1.082100286585549e-08)"
+
+Alice,Minor,Henrique,Rebecca,Gretchen
+P-value,"Ttest_indResult(statistic=0.7123679694242067, pvalue=0.4766543369316447)","Ttest_indResult(statistic=7.644299309661451, pvalue=1.5894093224030628e-13)","Ttest_indResult(statistic=2.123226463401097, pvalue=0.03435140484289132)","Ttest_indResult(statistic=1.6195693377785056, pvalue=0.10611688231823577)"
+
+Rebecca,Minor,Henrique,Alice,Gretchen
+P-value,"Ttest_indResult(statistic=-1.4056623082457225, pvalue=0.16060456873073042)","Ttest_indResult(statistic=5.30283454973029, pvalue=1.895167743184714e-07)","Ttest_indResult(statistic=-2.123226463401097, pvalue=0.03435140484289132)","Ttest_indResult(statistic=-0.49941059158604106, pvalue=0.6177661101820654)"
+
+Gretchen,Minor,Henrique,Alice,Rebecca
+P-value,"Ttest_indResult(statistic=-0.9046718045106831, pvalue=0.3661865646201665)","Ttest_indResult(statistic=5.840550519722827, pvalue=1.082100286585549e-08)","Ttest_indResult(statistic=-1.6195693377785056, pvalue=0.10611688231823577)","Ttest_indResult(statistic=0.49941059158604106, pvalue=0.6177661101820654)"
+

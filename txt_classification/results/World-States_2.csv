@@ -33,3 +33,19 @@ Precision,0.1518987341772152,0.13636363636363635,0.4,0.14444444444444443
 Recall,0.6666666666666666,0.6666666666666666,0.4444444444444444,0.7222222222222222
 F1 score,0.24742268041237114,0.22641509433962262,0.4210526315789474,0.2407407407407407
 
+World-States
+Minor,Henrique,Alice,Rebecca,Gretchen
+P-value,"Ttest_indResult(statistic=-0.9111719677866778, pvalue=0.36275629743724136)","Ttest_indResult(statistic=7.2554959894791144, pvalue=2.1101204134564184e-12)","Ttest_indResult(statistic=-1.1123948365892038, pvalue=0.2666398710000938)","Ttest_indResult(statistic=7.595536179103599, pvalue=2.2100365444802688e-13)"
+
+Henrique,Minor,Alice,Rebecca,Gretchen
+P-value,"Ttest_indResult(statistic=0.9111719677866778, pvalue=0.36275629743724136)","Ttest_indResult(statistic=8.269465919114483, pvalue=2.0382097057187644e-15)","Ttest_indResult(statistic=-0.20072756909638306, pvalue=0.8410141356827017)","Ttest_indResult(statistic=8.6170604815844, pvalue=1.6354755777101478e-16)"
+
+Alice,Minor,Henrique,Rebecca,Gretchen
+P-value,"Ttest_indResult(statistic=-7.2554959894791144, pvalue=2.1101204134564184e-12)","Ttest_indResult(statistic=-8.269465919114483, pvalue=2.0382097057187644e-15)","Ttest_indResult(statistic=-8.498801658447478, pvalue=3.888443285192709e-16)","Ttest_indResult(statistic=0.34024253061503845, pvalue=0.7338533943373)"
+
+Rebecca,Minor,Henrique,Alice,Gretchen
+P-value,"Ttest_indResult(statistic=1.1123948365892038, pvalue=0.2666398710000938)","Ttest_indResult(statistic=0.20072756909638306, pvalue=0.8410141356827017)","Ttest_indResult(statistic=8.498801658447478, pvalue=3.888443285192709e-16)","Ttest_indResult(statistic=8.84845082300925, pvalue=2.936498216495782e-17)"
+
+Gretchen,Minor,Henrique,Alice,Rebecca
+P-value,"Ttest_indResult(statistic=-7.595536179103599, pvalue=2.2100365444802688e-13)","Ttest_indResult(statistic=-8.6170604815844, pvalue=1.6354755777101478e-16)","Ttest_indResult(statistic=-0.34024253061503845, pvalue=0.7338533943373)","Ttest_indResult(statistic=-8.84845082300925, pvalue=2.936498216495782e-17)"
+

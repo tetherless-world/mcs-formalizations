@@ -33,3 +33,19 @@ Precision,0.6747967479674797,0.7637795275590551,0.7080745341614907,0.74172185430
 Recall,0.6148148148148148,0.7185185185185186,0.8444444444444444,0.8296296296296296
 F1 score,0.6434108527131784,0.7404580152671756,0.7702702702702704,0.7832167832167831
 
+Classes-and-Instances
+Minor,Henrique,Alice,Rebecca,Gretchen
+P-value,"Ttest_indResult(statistic=-0.4121720732279079, pvalue=0.6804352120698633)","Ttest_indResult(statistic=-4.271396188229957, pvalue=2.4324080544129298e-05)","Ttest_indResult(statistic=-3.0410742805927953, pvalue=0.0025133279727298846)","Ttest_indResult(statistic=-1.2532102807957426, pvalue=0.21086491374354593)"
+
+Henrique,Minor,Alice,Rebecca,Gretchen
+P-value,"Ttest_indResult(statistic=0.4121720732279079, pvalue=0.6804352120698633)","Ttest_indResult(statistic=-3.8462743488419404, pvalue=0.00013961540915662272)","Ttest_indResult(statistic=-2.622225159486231, pvalue=0.009070990928031548)","Ttest_indResult(statistic=-0.8400904517937027, pvalue=0.4013620414795499)"
+
+Alice,Minor,Henrique,Rebecca,Gretchen
+P-value,"Ttest_indResult(statistic=4.271396188229957, pvalue=2.4324080544129298e-05)","Ttest_indResult(statistic=3.8462743488419404, pvalue=0.00013961540915662272)","Ttest_indResult(statistic=1.2061886527178556, pvalue=0.22846127289233398)","Ttest_indResult(statistic=2.989330479970413, pvalue=0.0029693931031176857)"
+
+Rebecca,Minor,Henrique,Alice,Gretchen
+P-value,"Ttest_indResult(statistic=3.0410742805927953, pvalue=0.0025133279727298846)","Ttest_indResult(statistic=2.622225159486231, pvalue=0.009070990928031548)","Ttest_indResult(statistic=-1.2061886527178556, pvalue=0.22846127289233398)","Ttest_indResult(statistic=1.774752519857123, pvalue=0.07670304601089914)"
+
+Gretchen,Minor,Henrique,Alice,Rebecca
+P-value,"Ttest_indResult(statistic=1.2532102807957426, pvalue=0.21086491374354593)","Ttest_indResult(statistic=0.8400904517937027, pvalue=0.4013620414795499)","Ttest_indResult(statistic=-2.989330479970413, pvalue=0.0029693931031176857)","Ttest_indResult(statistic=-1.774752519857123, pvalue=0.07670304601089914)"
+
