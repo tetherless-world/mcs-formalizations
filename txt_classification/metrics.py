@@ -1,7 +1,7 @@
 import pandas as pd
 from sklearn import metrics
-from mcs_formalizations.path import DATA_DIR_PATH
-
+from mcs_formalizations.path import DATA_DIR_PATH, ROOT_DIR_PATH
+import csv
 # initials = ["M", "H", "A", "R", "G"]
 old_names = ["Minor", "Henrique", "Alice", "Rebecca", "Gretchen"]
 
@@ -28,10 +28,10 @@ def get_scores_original(df, file_path):
             y_pred = df[other]
 
             accuracy_list.append(metrics.accuracy_score(y_test, y_pred))
-            balanced_accuracy_list.append(metrics.balanced_accuracy_score(y_test, y_pred)))
-            precision_list.append(metrics.precision_score(y_test, y_pred)))
-            recall_list.append(metrics.recall_score(y_test, y_pred)))
-            f1_list.append(metrics.f1_score(y_test, y_pred)))
+            balanced_accuracy_list.append(metrics.balanced_accuracy_score(y_test, y_pred))
+            precision_list.append(metrics.precision_score(y_test, y_pred))
+            recall_list.append(metrics.recall_score(y_test, y_pred))
+            f1_list.append(metrics.f1_score(y_test, y_pred))
 
             # tn, fp, fn, tp = metrics.confusion_matrix(y_test, y_pred).ravel()
             # print(tn, fp, fn, tp)
@@ -87,6 +87,6 @@ if __name__ == "__main__":
             # This line is necessary for Alice's summary file.
             # df.drop(df.tail(1).index, inplace=True)
 
-            file_path = f"txt_classification/results/{category}_{threshold}.csv"
+            file_path = ROOT_DIR_PATH / f"txt_classification/results/{category}_{threshold}.csv"
 
             get_scores_original(df, file_path)
